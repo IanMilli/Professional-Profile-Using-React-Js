@@ -27,7 +27,7 @@ function NavBar() {
                 Voluntary Work for Non Profits
               </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Lets Connect!" id="connect-nav-dropdown">
+            <NavDropdown  title="Lets Connect!" id="connect-nav-dropdown">
               <NavDropdown.Item href="tel:+4407498174271">
                 Phone
               </NavDropdown.Item>
@@ -42,7 +42,7 @@ function NavBar() {
                 GitHub
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#resume"className="resume"><h2>Resume</h2></Nav.Link>
+            <Nav.Link href="https://drive.google.com/file/d/1K5jShP_8ROMvbdFBl_IGcTLy-VllgJRN/view?usp=sharing"className="resume"><h2>Resume</h2></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
