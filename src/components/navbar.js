@@ -2,28 +2,37 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import '../components/navbar.css';
 
 function NavBar() {
   return (
-    <Navbar bg="dark" expand="lg">
+    <Navbar expand="lg" className='navigation'>
+      <img src='../images/logoNav.png' href="#home"id="logoNav" alt='logo Img'></img>
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+            </Nav>
+            <Nav >
+            <Nav.Link href="/Home"className="home" ><h2>Home</h2></Nav.Link>
+            <Nav.Link href="/About"className="about"><h2>About</h2></Nav.Link>
+            <Nav.Link href="/Projects"className="projects"><h2>Projects</h2></Nav.Link>
+            <NavDropdown  title="Lets Connect!" id="connect-nav-dropdown">
+              <NavDropdown.Item href="tel:+4407498174271">
+                Phone
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
+              <NavDropdown.Item href="mailto:ianmillichamp.2@gmail.com">Email</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="https://www.linkedin.com/in/ian-millichamp/">
+                LinkedIn
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="https://github.com/IanMilli">
+                GitHub
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="https://drive.google.com/file/d/1K5jShP_8ROMvbdFBl_IGcTLy-VllgJRN/view?usp=sharing"className="resume"><h2>Resume</h2></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,0 +1,56 @@
+h1 {
+font-size: 3.5vw;
+font-family: cursive;    
+}
+h2 {
+    font-size: 2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#connect-nav-dropdown{
+    font-size: 2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+
+}
+
+#projects-nav-dropdown {
+    font-size: 2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.navigation{
+
+    background-color: #E5FCFF;
+    border-bottom: #abdafc solid 1vh;
+}
+.home,
+.about,
+.resume,
+#projects-nav-dropdown,
+#connect-nav-dropdown
+ {
+    border-bottom: #b8336a solid 0.5vh;
+    margin-right: 3vh;
+    
+}
+
+
+
+#logoNav {
+    height:20vh;
+    margin-left: 0;
+
+}
+
+@media screen and (max-width: 576px) {
+    #projects-nav-dropdown,
+    #connect-nav-dropdown{
+        font-size:4.5vw;
+    }
+    #logoNav {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
