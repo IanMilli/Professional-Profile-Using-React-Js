@@ -4,12 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import NavBar from './components/navbar.js';
-
-
-
-
-
-
+import Footer from './components/footer.js';
 
 
 function App() {
@@ -22,7 +17,9 @@ function App() {
         <Route path="/Projects" element={<Projects />} />
        
       </Routes>
+      <Footer/>
     </Router>
+  
   );
 }
 
