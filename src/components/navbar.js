@@ -17,7 +17,7 @@ function NavBar() {
             <Nav.Link href="#home"className="home" ><h2>Home</h2></Nav.Link>
             <Nav.Link href="#about"className="about"><h2>About</h2></Nav.Link>
             <NavDropdown title="Projects" id="projects-nav-dropdown">
-              <NavDropdown.Item href="#professional">
+              <NavDropdown.Item href="#projects">
                 Professional Projects
               </NavDropdown.Item>
               <NavDropdown.Divider />
