@@ -1,7 +1,12 @@
+a {
+    font-size: 1.2vw;
+}
+
 .footer
 {
 
     background-color: #b8336a;
+    height: 15vh;
    
 }
 
@@ -16,7 +21,21 @@
     margin-right: 35vh;
 }
 #logoNav {
-    height:20vh;
+    height:100%;
     margin-left: 10vh;
 
+}
+@media screen and (max-width: 576px) {
+   
+
+    .footer
+    {
+height: auto;
+    }
+    #logoNav {
+        height:15vh;
+        margin-left: 18vh;
+       
+    
+    }
 }

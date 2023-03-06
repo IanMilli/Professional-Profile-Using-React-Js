@@ -23,6 +23,7 @@ h2 {
 
     background-color: #E5FCFF;
     border-bottom: #abdafc solid 1vh;
+    height: 25vh;
 }
 .home,
 .about,
@@ -39,7 +40,7 @@ h2 {
 
 
 #logoNav {
-    height:20vh;
+    height:100%;
     margin-left: 10vh;
 
 }
@@ -53,5 +54,7 @@ h2 {
         margin-left: auto;
         margin-right: auto;
     }
-
+.navigation {
+    height: auto;
+}
 }

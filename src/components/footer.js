@@ -12,26 +12,28 @@ function Footer() {
                 <Nav>
 
                 </Nav>
-                <Nav >
+                <Nav className="footer">
                     <div className='copyright'>
-                    <a className="text-white">
+                    <a className="text-white"href="/Home">
                         © 2023
-                        Copyright:    </a>
-                    <a className="text-white"
-                        href="/Home">   Ian
+                        Copyright:    
+                           Ian
                         Millichamp
+                        
                     </a>
                     </div>
-                <Nav.Link className="text-info" href="tel:+4407498174271" id="phone"><h2><i className="fa fa-phone"></i></h2></Nav.Link>
-                <Nav.Link className="text-info" href="mailto:ianmillichamp.2@gmail.com"id="email"><h2><i className="fa fa-envelope"></i></h2></Nav.Link>
-                <Nav.Link className="text-info" href="https://www.linkedin.com/in/ian-millichamp/"id="linkedin">
+                <Nav.Link className="text-info " href="tel:+4407498174271" id="phone"><h2><i className="fa fa-phone"></i></h2></Nav.Link>
+                <Nav.Link className="text-info " href="mailto:ianmillichamp.2@gmail.com"id="email"><h2><i className="fa fa-envelope"></i></h2></Nav.Link>
+                <Nav.Link className="text-info " href="https://www.linkedin.com/in/ian-millichamp/"id="linkedin">
                     <h2> <i className="fa fa-linkedin"></i></h2></Nav.Link>
-                <Nav.Link className="text-info" href="https://github.com/IanMilli"id="github"><h2> <i className="fa fa-github"></i></h2></Nav.Link>
+                <Nav.Link className="text-info " href="https://github.com/IanMilli"id="github"><h2> <i className="fa fa-github"></i></h2></Nav.Link>
             </Nav>
         </Container>
         </Navbar >
     );
 }
+
+
 
 export default Footer;
 
