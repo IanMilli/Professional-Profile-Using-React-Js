@@ -20,7 +20,7 @@ a {
 .copyright{
     margin-right: 35vh;
 }
-#logoNav {
+#logoFoot {
     height:100%;
     margin-left: 10vh;
 
@@ -32,10 +32,33 @@ a {
     {
 height: auto;
     }
-    #logoNav {
+    #logoFoot {
         height:15vh;
-        margin-left: 18vh;
-       
-    
+        margin-left:auto;
+        margin-right: auto;
+         
     }
+    .copyright,
+.logo1{
+ 
+  
+}
+}
+@media (max-width:1000px)  {
+    
+    .footer
+    {
+height: auto;
+    }
+    #logoFoot {
+
+        margin-left: auto;
+        margin-right: auto;
+        height:20vw    }
+
+.logo1{
+margin-left: 13vh;
+
+}
+
 }
