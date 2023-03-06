@@ -1,0 +1,22 @@
+.footer
+{
+
+    background-color: #b8336a;
+   
+}
+
+#phone,
+#email,
+#linkedin,
+#github {
+    margin-right: 6vh;
+}
+
+.copyright{
+    margin-right: 35vh;
+}
+#logoNav {
+    height:20vh;
+    margin-left: 10vh;
+
+}
