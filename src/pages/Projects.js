@@ -3,18 +3,24 @@ import Button from 'react-bootstrap/Button';
 
 function Projects() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-      <Button variant="danger">Primary</Button>{' '}
-    </div>
-  );
+    <div style={{
+      backgroundImage: `url("../images/homeBackground.jpg")`,
+
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      width: 'auto',
+      height: '120vh'
+  }}>
+
+<h3>To Review Web Development Projects I have been involved select from the following</h3>
+     <Button variant="primary" href='./Professional'>Professional Web Development Projects</Button>{' '}
+     <Button variant="secondary" href='./Voluntary'>Voluntary Web Development Projects</Button>{' '}
+     <Button variant="success"href='./Personal' >Personal Development Projects</Button>{' '}
+    </div>)
+
 }
+
+
+
 
 export default Projects;
