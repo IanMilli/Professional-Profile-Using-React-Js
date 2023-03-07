@@ -1,5 +1,5 @@
 
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route,  } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -35,7 +35,7 @@ function App() {
         <Route path="/Professional" element={<Professional />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/BbCentre" element={<BbCentre />} />
-        <Route path="/IngrediantFys" element={<IngrediantFy />} />
+        <Route path="/IngrediantFy" element={<IngrediantFy />} />
         <Route path="/Password" element={< Password />} />
         <Route path="/Planner" element={<Planner />} />
         <Route path="/Project2" element={<Project2 />} />

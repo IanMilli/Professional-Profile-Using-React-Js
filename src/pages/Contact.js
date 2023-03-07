@@ -39,7 +39,7 @@ const Contact = () => {
         message
       };
       const serviceID = 'service_z6ilteb';
-      const templateID = 'template_ixzk8q7';
+      const templateID = 'template_5cb28la';
       const publicKey = 'iHEp7E_6WafXGfnSA';
       emailjs.send(serviceID, templateID, templateParams, publicKey);
 
