@@ -20,7 +20,7 @@ import Weather from "./pages/Weather";
 import NavBar from './components/navbar.js';
 import Footer from './components/footer.js';
 
-import "./fonts/NewtSerifBold-Italic.otf"
+import "./assets/fonts/NewtSerifBold-Italic.otf"
 
 function App() {
   return (
