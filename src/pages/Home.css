@@ -1,0 +1,19 @@
+
+  
+  .Profile-pic { 
+    grid-area: Profile-pic;
+ }
+  
+  .Text-about { grid-area: Text-about;
+width: 30vh; }
+  
+  .quote { grid-area: quote; }
+
+  #profilepic {
+width:20%;
+height:20%;
+  }
+
+ 
+  
+  
