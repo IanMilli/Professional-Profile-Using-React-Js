@@ -1,11 +1,12 @@
 import Container from 'react-bootstrap/Container';
 import React from "react";
-import Button from 'react-bootstrap/Button';
+import { LinkContainer } from 'react-router-bootstrap';
 import '../pages/About.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 import Spinner from 'react-bootstrap/Spinner';
+import { NavItem } from 'react-bootstrap';
 
 
 function Home() {
@@ -16,7 +17,7 @@ function Home() {
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
             width: 'auto',
-            height: '80vh'
+            height: '120vh'
         }}>
             <Container >
                 <Row>
@@ -30,9 +31,9 @@ function Home() {
                         <h3 > I have Front End Web Development Skills and Experience working with multiple technologies such as :
                         </h3>
                         <Carousel variant='dark' style={{
-            
-            height: '20vh'
-        }}>
+
+                            height: '20vh'
+                        }}>
                             <Carousel.Item>
                                 <Row>
                                     <Col></Col>
@@ -105,7 +106,7 @@ function Home() {
                                     <Col>
                                         <Spinner animation="border" variant="primary"></Spinner> <h6>Deployment</h6>
                                     </Col>
-                                 
+
                                 </Row>
                             </Carousel.Item>
                         </Carousel>
@@ -113,53 +114,57 @@ function Home() {
                 </Row>
             </Container>
             <h3>having worked at multiple high quality environments such as:</h3>
-            <Carousel  variant='dark' style={{
-            
-            height: '30vh'}}>
-      <Carousel.Item>
-        <Row>
-            <Col></Col>
-            <Col>
-      <img src='..\images\about - workCarousel\BlackpoolTower.png' alt="Blackpool Tower" id="workPic"></img>
-      </Col>
-      <Col>
-      <img src='..\images\about - workCarousel\hiltonBlackpool.jpg' alt="Blackpool Hilton" id="workPic"></img>
-      </Col>
-      <Col>
-      <img src='..\images\about - workCarousel\hiltonYork.jpg' alt="York Hilton " id="workPic"></img>
-      </Col>
-      </Row>
-      </Carousel.Item>
-      <Carousel.Item>
-        <Row>
-            <Col></Col>
-            <Col>
-      <img src='..\images\about - workCarousel\marriottYork.jpg' alt="Mariott York" id="workPic"></img>
-      </Col>
-      <Col>
-      <img src='..\images\about - workCarousel\lochFyne.jpg' alt="Loch Fyne" id="workPic"></img>
-      </Col>
-      <Col>
-      <img src='..\images\about - workCarousel\grove.png' alt="Grove " id="workPic"></img>
-      </Col>
-      </Row>
-      </Carousel.Item>
-      <Carousel.Item>
-        <Row>
-            <Col></Col>
-            <Col>
-      <img src='..\images\about - workCarousel\Seabourn.jpg' alt="Seabourne" id="workPic"></img>
-      </Col>
-      <Col>
-      <img src='..\images\about - workCarousel\royalHousehold.png' alt="The Royal Household" id="workPic"></img>
-      </Col>
-      <Col>
-      <img src='..\images\about - workCarousel\bb.jpg' alt="Boys Brigade " id="workPic"></img>
-      </Col>
-      </Row>
-      </Carousel.Item>
-    </Carousel>
-            <h3>siomething something</h3>
+            <Carousel variant='dark' style={{
+
+                height: '30vh'
+            }}>
+                <Carousel.Item>
+                    <Row>
+                        <Col></Col>
+                        <Col>
+                            <img src='..\images\about - workCarousel\BlackpoolTower.png' alt="Blackpool Tower" id="workPic"></img>
+                        </Col>
+                        <Col>
+                            <img src='..\images\about - workCarousel\hiltonBlackpool.jpg' alt="Blackpool Hilton" id="workPic"></img>
+                        </Col>
+                        <Col>
+                            <img src='..\images\about - workCarousel\hiltonYork.jpg' alt="York Hilton " id="workPic"></img>
+                        </Col>
+                    </Row>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <Row>
+                        <Col></Col>
+                        <Col>
+                            <img src='..\images\about - workCarousel\marriottYork.jpg' alt="Mariott York" id="workPic"></img>
+                        </Col>
+                        <Col>
+                            <img src='..\images\about - workCarousel\lochFyne.jpg' alt="Loch Fyne" id="workPic"></img>
+                        </Col>
+                        <Col>
+                            <img src='..\images\about - workCarousel\grove.png' alt="Grove " id="workPic"></img>
+                        </Col>
+                    </Row>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <Row>
+                        <Col></Col>
+                        <Col>
+                            <img src='..\images\about - workCarousel\Seabourn.jpg' alt="Seabourne" id="workPic"></img>
+                        </Col>
+                        <Col>
+                            <img src='..\images\about - workCarousel\royalHousehold.png' alt="The Royal Household" id="workPic"></img>
+                        </Col>
+                        <Col>
+                            <img src='..\images\about - workCarousel\bb.jpg' alt="Boys Brigade " id="workPic"></img>
+                        </Col>
+                    </Row>
+                </Carousel.Item>
+            </Carousel>
+            <h3>I am ready to express my creativity through web development. </h3>
+            <h3>for information on some of the Web Design Work I Have Completed Please Click on <LinkContainer to="/Projects">
+                <NavItem eventKey={1}>Projects</NavItem>
+            </LinkContainer> </h3>
         </div>
 
     );
