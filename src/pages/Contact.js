@@ -1,5 +1,5 @@
 import { useForm } from 'react-hook-form';
-import { toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 import emailjs from 'emailjs-com';;
 
@@ -45,7 +45,8 @@ const Contact = () => {
 
 
       reset();
-      toastifySuccess();
+      
+  toastifySuccess();
     } catch (e) {
       console.log(e);
     }
@@ -138,6 +139,7 @@ const Contact = () => {
                   Submit
                 </button>
               </form>
+              <ToastContainer></ToastContainer>
             </div>
           </div>
         </div>
