@@ -1,0 +1,35 @@
+
+  h3 {color: navy;
+    font-size: 1vw;
+    font-family: "Bold";
+
+  }
+.homeText {
+  margin-bottom: 4vh;
+}
+
+  .Profile-pic { 
+    grid-area: Profile-pic;
+ }
+  
+  .Text-about { grid-area: Text-about;
+width: 30vh; }
+  
+  .quote { grid-area: quote; }
+
+  #profilepic {
+width:80%;
+height:auto;
+border-radius: 50%;
+border: solid black 1px;
+  }
+#but{
+  margin-left: 100vh;
+  border-radius: 50%;
+  width: 20vh;
+  color: aliceblue;
+  margin-bottom: 3vh;
+}
+ 
+  
+  

@@ -23,6 +23,7 @@ h2 {
 
     background-color: #E5FCFF;
     border-bottom: #abdafc solid 1vh;
+    height: 25vh;
 }
 .home,
 .about,
@@ -39,7 +40,7 @@ h2 {
 
 
 #logoNav {
-    height:20vh;
+    height:100%;
     margin-left: 10vh;
 
 }
@@ -52,6 +53,24 @@ h2 {
     #logoNav {
         margin-left: auto;
         margin-right: auto;
+        height: 30vh;
     }
-
+.navigation {
+    height: auto;
 }
+}
+@media (max-width:1000px)  {
+
+   
+    #connect-nav-dropdown{
+        font-size:4.5vw;
+    }
+    #logoNav {
+        margin-left: auto;
+        margin-right: auto;
+        height:25vw    }
+.navigation {
+    height: auto;
+}
+}
+

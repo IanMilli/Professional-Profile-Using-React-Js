@@ -19,7 +19,7 @@ function NavBar() {
           <Nav className="me-auto">
             </Nav>
             <Nav >
-            <Nav.Link href="/Home"className="home" ><h2>Home</h2></Nav.Link>
+            <Nav.Link href="/"className="home" ><h2>Home</h2></Nav.Link>
             <Nav.Link href="/About"className="about"><h2>About </h2></Nav.Link>
             <Nav.Link href="/Projects"className="projects"><h2>Projects</h2></Nav.Link>
             <Nav.Link href="https://drive.google.com/file/d/1K5jShP_8ROMvbdFBl_IGcTLy-VllgJRN/view?usp=sharing"className="resume"><h2>Resume</h2></Nav.Link>

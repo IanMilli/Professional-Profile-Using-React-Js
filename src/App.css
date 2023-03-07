@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Bold";
+  src: local("NewtSerifBoldItalic") url(./fonts/NewtSerifBold-Italic.otf);
+}
+
+
+
 .App {
   text-align: center;
 }
