@@ -24,6 +24,10 @@ function NavBar() {
             <Nav.Link href="/Projects"className="projects"><h2>Projects</h2></Nav.Link>
             <Nav.Link href="https://drive.google.com/file/d/1K5jShP_8ROMvbdFBl_IGcTLy-VllgJRN/view?usp=sharing"className="resume"><h2>Resume</h2></Nav.Link>
             <NavDropdown  title="Lets Connect !" id="connect-nav-dropdown">
+            <NavDropdown.Item href="/Contact">
+              <i className="fa fa-address-card"></i> Contact Form
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
               <NavDropdown.Item href="tel:+4407498174271">
               <i className="fa fa-phone"></i> Phone
               </NavDropdown.Item>
