@@ -23,13 +23,13 @@ function Home() {
                     <Col xs={2}>
                     </Col>
                     <Col xs={9}> <h3 className="text-center homeText" >
-                        Former Culinary and Hospitality Manager transitioning into a
+                        I Am a Chef and Hospitality Manager transitioning into a
                         Junior Development role after completing a Certificated Course in Front-End
                         Web Development.</h3>
 
-                        <h3 > My Skills include working with multiple technologies such as :
+                        <h3 > I have Front End Web Development Skills and Experience working with multiple technologies such as :
                         </h3>
-                        <Carousel style={{
+                        <Carousel variant='dark' style={{
             
             height: '20vh'
         }}>
@@ -112,6 +112,54 @@ function Home() {
                     </Col>
                 </Row>
             </Container>
+            <h3>having worked at multiple high quality environments such as:</h3>
+            <Carousel  variant='dark' style={{
+            
+            height: '30vh'}}>
+      <Carousel.Item>
+        <Row>
+            <Col></Col>
+            <Col>
+      <img src='..\images\about - workCarousel\BlackpoolTower.png' alt="Blackpool Tower" id="workPic"></img>
+      </Col>
+      <Col>
+      <img src='..\images\about - workCarousel\hiltonBlackpool.jpg' alt="Blackpool Hilton" id="workPic"></img>
+      </Col>
+      <Col>
+      <img src='..\images\about - workCarousel\hiltonYork.jpg' alt="York Hilton " id="workPic"></img>
+      </Col>
+      </Row>
+      </Carousel.Item>
+      <Carousel.Item>
+        <Row>
+            <Col></Col>
+            <Col>
+      <img src='..\images\about - workCarousel\marriottYork.jpg' alt="Mariott York" id="workPic"></img>
+      </Col>
+      <Col>
+      <img src='..\images\about - workCarousel\lochFyne.jpg' alt="Loch Fyne" id="workPic"></img>
+      </Col>
+      <Col>
+      <img src='..\images\about - workCarousel\grove.png' alt="Grove " id="workPic"></img>
+      </Col>
+      </Row>
+      </Carousel.Item>
+      <Carousel.Item>
+        <Row>
+            <Col></Col>
+            <Col>
+      <img src='..\images\about - workCarousel\Seabourn.jpg' alt="Seabourne" id="workPic"></img>
+      </Col>
+      <Col>
+      <img src='..\images\about - workCarousel\royalHousehold.png' alt="The Royal Household" id="workPic"></img>
+      </Col>
+      <Col>
+      <img src='..\images\about - workCarousel\bb.jpg' alt="Boys Brigade " id="workPic"></img>
+      </Col>
+      </Row>
+      </Carousel.Item>
+    </Carousel>
+            <h3>siomething something</h3>
         </div>
 
     );
