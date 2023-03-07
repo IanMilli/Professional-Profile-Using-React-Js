@@ -24,7 +24,7 @@ import "./fonts/NewtSerifBold-Italic.otf"
 
 function App() {
   return (
-    <Router>
+    <Router basename="Professional-Profile-Using-React-Js/">
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
