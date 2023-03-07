@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 function Home() {
   return (
     <div style={{
-      backgroundImage: `url("../images/homeBackground.jpg")`,
+      backgroundImage: `url("../public/images/homeBackground.jpg")`,
 
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
@@ -23,7 +23,7 @@ function Home() {
           <Col xs={1}>
           </Col>
           <Col xs={2}>
-            <img src='../images/profilepic.jpg' alt="profilepic" id="profilepic"></img>
+            <img src='../public/images/profilepic.jpg' alt="profilepic" id="profilepic"></img>
           </Col>
           <Col xs={9}> <h3 className="text-center homeText" >
             Welcome, I am Ian Millichamp,</h3>
