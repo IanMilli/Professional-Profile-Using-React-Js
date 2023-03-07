@@ -12,7 +12,7 @@ import '../components/navbar.css';
 function NavBar() {
   return (
     <Navbar expand="lg" className='navigation'>
-      <img src='../images/logoNav.png' href="#home"id="logoNav" alt='logo Img'></img>
+      <img src='https://github.com/IanMilli/Professional-Profile-Using-React-Js/blob/main/public/images/logoNav.png' href="#home"id="logoNav" alt='logo Img'></img>
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

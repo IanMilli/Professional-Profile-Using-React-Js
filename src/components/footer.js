@@ -6,7 +6,7 @@ import '../components/footer.css';
 function Footer() {
     return (
         <Navbar expand="lg" className='footer'>
-            <img src='../images/logoFoot.png' href="#home"id="logoFoot" alt='logo Img'></img>
+            <img src='https://github.com/IanMilli/Professional-Profile-Using-React-Js/blob/main/public/images/logoFoot.png' href="#home"id="logoFoot" alt='logo Img'></img>
             <Container>
                 <Nav>
 
