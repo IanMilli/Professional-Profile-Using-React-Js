@@ -25,22 +25,25 @@ function Home() {
           <Col xs={2}>
             <img src='../images/profilepic.jpg' alt="profilepic" id="profilepic"></img>
           </Col>
-          <Col xs={9}> <h3>
-            Welcome, I am Ian Millichamp ,</h3>
-            <h3> A Creative Individual Who Uses Cooking & Web Design As My Creative Outlets.
+          <Col xs={9}> <h3 className="text-center homeText" >
+            Welcome, I am Ian Millichamp,</h3>
+            <h3 className="homeText"> A Creative Individual Who Uses Cooking & Web Design As My Creative Outlets.
 
             </h3>
-            <h3> To Learn More About Me Click Below:
+            <h3 className="text-center homeText"> To Learn More About Me Click Below:
             </h3>
-            <Button variant="info" size="lg" href="/About">About</Button>{' '}
+            <Button variant="info" size="lg" href="/About" id="but">About</Button>{' '}
           </Col>
         </Row>
         <Row>
           <Col xs={4}>
           </Col>
           <Col xs={8}>
-            <h4>"Creativity is the ability to have a Wonderful Imagination Capable Of Envisioning The World In A Unique Way" - Sean Havens</h4>
-            <h5> "Creativity is seeing what others see and thinking what no one else has ever thought." - Albert Einstein. "</h5>
+            <h4 className="text-center">"Creativity is the ability to have a Wonderful Imagination </h4>
+            <h4 className="text-center">Capable Of Envisioning The World In A Unique Way"</h4>
+            <h4 className="text-center homeText">- Sean Havens</h4>
+            <h5 className="text-center"> "It is seeing what others see and thinking what no one else has ever thought." </h5>
+            <h5 className="text-center"> - Albert Einstein. "</h5>
           </Col>
         </Row>
       </Container>

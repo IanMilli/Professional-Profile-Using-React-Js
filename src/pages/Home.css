@@ -4,7 +4,9 @@
     font-family: "Bold";
 
   }
-
+.homeText {
+  margin-bottom: 4vh;
+}
 
   .Profile-pic { 
     grid-area: Profile-pic;
@@ -21,7 +23,13 @@ height:auto;
 border-radius: 50%;
 border: solid black 1px;
   }
-
+#but{
+  margin-left: 100vh;
+  border-radius: 50%;
+  width: 20vh;
+  color: aliceblue;
+  margin-bottom: 3vh;
+}
  
   
   
