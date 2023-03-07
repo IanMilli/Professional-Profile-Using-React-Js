@@ -21,6 +21,7 @@ function Footer() {
                         
                     </a>
                     </div>
+                    <Nav.Link className="text-info logo1" href="/Contact" id="phone"><h2><i class="fa fa-address-card"></i></h2></Nav.Link>
                 <Nav.Link className="text-info logo1" href="tel:+4407498174271" id="phone"><h2><i className="fa fa-phone"></i></h2></Nav.Link>
                 <Nav.Link className="text-info logo1" href="mailto:ianmillichamp.2@gmail.com"id="email"><h2><i className="fa fa-envelope"></i></h2></Nav.Link>
                 <Nav.Link className="text-info logo1" href="https://www.linkedin.com/in/ian-millichamp/"id="linkedin">
