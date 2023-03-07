@@ -8,14 +8,31 @@ import Col from 'react-bootstrap/Col';
 
 function Home() {
   return (
-    <Container className="body">
-     <Row>
-        <Col> <div className="Profile-pic">
+    <div style={{ 
+      backgroundImage: `url("../images/homeBackground.jpg")` ,
+      
+  backgroundRepeat: 'no-repeat',
+  backgroundSize:'cover',
+  width:'auto' ,
+  height:'auto'
+    }}>
+    <Container >
+     <Row style={({height:'5vh'})}>
+      </Row>
+      <Row>
+        <Col xs={1}>
+        </Col>
+        <Col xs={2}> 
     <img src='../images/profilepic.jpg'alt="profilepic" id="profilepic"></img>
-  </div></Col>
-        <Col> <div className="Text-about">
-    Welcome, To Learn More about Me, Ian Millichamp , a Front End Web Developer, Chef and Hospitality Manager Please Click the following link:
-  </div></Col>
+  </Col>
+        <Col xs={9}> <h3>
+    Welcome, I am Ian Millichamp ,</h3>
+      <h3> A Creative Individual Who Uses Cooking & Web Design As My Creative Outlets.
+    
+    </h3>
+    <h3> Learn More Click Below:
+    </h3>
+  </Col>
       </Row>
       <Row>
         <Col><div className="quote">
@@ -23,6 +40,7 @@ function Home() {
   </div></Col>
       </Row>
 </Container>
+</div>
 
   );
 }
