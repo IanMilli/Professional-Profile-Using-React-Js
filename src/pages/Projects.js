@@ -1,5 +1,5 @@
 import React from "react";
-import Button from 'react-bootstrap/Button';
+import {Link, } from "react-router-dom";
 
 function Projects() {
   return (
@@ -13,9 +13,9 @@ function Projects() {
   }}>
 
 <h3>To Review Web Development Projects I have been involved select from the following</h3>
-     <Button variant="primary" href='./Professional'>Professional Web Development Projects</Button>{' '}
-     <Button variant="secondary" href='./Voluntary'>Voluntary Web Development Projects</Button>{' '}
-     <Button variant="success"href='./Personal' >Personal Development Projects</Button>{' '}
+    Link 
+
+    <Link to="/Personal" className="personal"><h2>Personal</h2></Link>
     </div>)
 
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import {Link, useLocation} from "react-router-dom";
+import {Link, } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -26,8 +26,9 @@ const Navigation = () =>{
             <Link to="/Projects" className="projects"><h2>Projects</h2></Link>
             <Link to={"https://drive.google.com/file/d/1K5jShP_8ROMvbdFBl_IGcTLy-VllgJRN/view?usp=sharing"}className="resume"><h2>Resume</h2></Link>
             <NavDropdown  title="Lets Connect !" id="connect-nav-dropdown">
-            <NavDropdown.Item href="/Contact">
-              <i className="fa fa-address-card"></i> Contact Form
+            <NavDropdown.Item >
+            <Link to="/Contact"><i className="fa fa-address-card"></i> Contact Form</Link>
+              
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="tel:+4407498174271">

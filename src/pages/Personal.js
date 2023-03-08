@@ -1,5 +1,32 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
+import FlipCard from "../components/projectCard";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../components/projectCard.scss";
+
+
+const cards = [
+  {
+    id: "1",
+    variant: "hover",
+    front: "Hover",
+    back: "Back"
+  },
+  {
+    id: "2",
+    variant: "click",
+    front: "Click",
+    back: "Back"
+  },
+  {
+    id: "3",
+    variant: "focus",
+    front: "Focus",
+    back: "Back"
+  }
+];
+
 
 function Personal() {
     return (
@@ -19,13 +46,15 @@ function Personal() {
 
             <h4>solo authored personal development projects</h4>
 
-            <Button variant="primary">Basic & Advanced Random Password Generators</Button>{' '}
-            <Button variant="primary">Revision Cards Test Web Application</Button>{' '}
-            <Button variant="primary">Daily Planner Web Apllication</Button>{' '}
-            <Button variant="primary">Responsive Weather Dashboard With API</Button>{' '}
-            <Button variant="primary">Professional ReadMe Generator</Button>{' '}
-            <Button variant="primary">Personal Profile Web Projects</Button>{' '}
-
+            <div className="container">
+      <div className="row h-100">
+        <div class="col d-flex flex-column flex-md-row justify-content-around align-items-center">
+          {cards.map((card) => (
+            <FlipCard key={card.id} card={card} />
+          ))}
+        </div>
+      </div>
+    </div>
         </div >)
 }
 
