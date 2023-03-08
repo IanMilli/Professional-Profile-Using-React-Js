@@ -1,5 +1,5 @@
 
-import { HashRouter as Router,  Route,  } from "react-router-dom";
+import { BrowserRouter as Router,  Route, Routes , } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -21,30 +21,30 @@ import NavBar from './components/navbar.js';
 import Footer from './components/footer.js';
 
 import "./assets/fonts/NewtSerifBold-Italic.otf"
-import { Container } from "react-bootstrap";
+
 
 function App() {
   return (
     <Router basename="Professional-Profile-Using-React-Js/">
       <NavBar />
-      <Container>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/About" element={<About />} />
-        <Route exact path="/Projects" element={<Projects />} />
-        <Route exact path="/Personal" element={<Personal />} />
-        <Route exact path="/Voluntary" element={<Voluntary />} />
-        <Route exact path="/Professional" element={<Professional />} />
-        <Route exact path="/Contact" element={<Contact />} />
-        <Route exact path="/BbCentre" element={<BbCentre />} />
-        <Route exact path="/IngrediantFy" element={<IngrediantFy />} />
-        <Route exact path="/Password" element={< Password />} />
-        <Route exact path="/Planner" element={<Planner />} />
-        <Route exact path="/Project2" element={<Project2 />} />
-        <Route exact path="/ReadMe" element={<ReadMe />} />
-        <Route exact path="/Revision" element={<Revision />} />
-        <Route exact path="/Weather" element={<Weather />} />
+      <Routes>
+        <Route  path="/" element={<Home />} />
+        <Route  path="/About" element={<About />} />
+        <Route  path="/Projects" element={<Projects />} />
+        <Route  path="/Personal" element={<Personal />} />
+        <Route  path="/Voluntary" element={<Voluntary />} />
+        <Route  path="/Professional" element={<Professional />} />
+        <Route  path="/Contact" element={<Contact />} />
+        <Route  path="/BbCentre" element={<BbCentre />} />
+        <Route  path="/IngrediantFy" element={<IngrediantFy />} />
+        <Route  path="/Password" element={< Password />} />
+        <Route  path="/Planner" element={<Planner />} />
+        <Route  path="/Project2" element={<Project2 />} />
+        <Route  path="/ReadMe" element={<ReadMe />} />
+        <Route  path="/Revision" element={<Revision />} />
+        <Route  path="/Weather" element={<Weather />} />
 
-        </Container>
+        </Routes>
       <Footer/>
     </Router>
   
