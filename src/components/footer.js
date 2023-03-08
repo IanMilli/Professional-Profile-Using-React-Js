@@ -7,7 +7,9 @@ import logoFoot from "../assets/images/logoFoot.png";
 function Footer() {
     return (
         <Navbar expand="lg" className='footer'>
+
             <img src={logoFoot} href="#home"id="logoFoot" alt='logo Img'></img>
+
             <Container>
                 <Nav>
 
