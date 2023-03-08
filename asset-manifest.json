@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Professional-Profile-Using-React-Js/static/css/main.f7c6a840.css",
-    "main.js": "/Professional-Profile-Using-React-Js/static/js/main.f504518b.js",
+    "main.css": "/Professional-Profile-Using-React-Js/static/css/main.96091b54.css",
+    "main.js": "/Professional-Profile-Using-React-Js/static/js/main.42f212bd.js",
     "static/js/787.39a2b41a.chunk.js": "/Professional-Profile-Using-React-Js/static/js/787.39a2b41a.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Professional-Profile-Using-React-Js/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/Professional-Profile-Using-React-Js/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -13,12 +13,12 @@
     "static/media/logoNav.png": "/Professional-Profile-Using-React-Js/static/media/logoNav.a09a3a386282c3e636be.png",
     "static/media/logoFoot.png": "/Professional-Profile-Using-React-Js/static/media/logoFoot.e6f332caba511e12472c.png",
     "index.html": "/Professional-Profile-Using-React-Js/index.html",
-    "main.f7c6a840.css.map": "/Professional-Profile-Using-React-Js/static/css/main.f7c6a840.css.map",
-    "main.f504518b.js.map": "/Professional-Profile-Using-React-Js/static/js/main.f504518b.js.map",
+    "main.96091b54.css.map": "/Professional-Profile-Using-React-Js/static/css/main.96091b54.css.map",
+    "main.42f212bd.js.map": "/Professional-Profile-Using-React-Js/static/js/main.42f212bd.js.map",
     "787.39a2b41a.chunk.js.map": "/Professional-Profile-Using-React-Js/static/js/787.39a2b41a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7c6a840.css",
-    "static/js/main.f504518b.js"
+    "static/css/main.96091b54.css",
+    "static/js/main.42f212bd.js"
   ]
 }
