@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../components/navbar.css';
-
+import logoNav from "../assets/images/logoNav.png";
 
 
 
@@ -12,7 +12,7 @@ import '../components/navbar.css';
 function NavBar() {
   return (
     <Navbar expand="lg" className='navigation'>
-      <img src='https://github.com/IanMilli/Professional-Profile-Using-React-Js/blob/main/public/images/logoNav.png' href="#home"id="logoNav" alt='logo Img'></img>
+      <img src={logoNav} href="#home"id="logoNav" alt='logo Img'></img>
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -22,7 +22,7 @@ function NavBar() {
             <Nav.Link href="/"className="home" ><h2>Home</h2></Nav.Link>
             <Nav.Link href="/About"className="about"><h2>About </h2></Nav.Link>
             <Nav.Link href="/Projects"className="projects"><h2>Projects</h2></Nav.Link>
-            <Nav.Link href="https://drive.google.com/file/d/1K5jShP_8ROMvbdFBl_IGcTLy-VllgJRN/view?usp=sharing"className="resume"><h2>Resume</h2></Nav.Link>
+            <Nav.Link href={"https://drive.google.com/file/d/1K5jShP_8ROMvbdFBl_IGcTLy-VllgJRN/view?usp=sharing"}className="resume"><h2>Resume</h2></Nav.Link>
             <NavDropdown  title="Lets Connect !" id="connect-nav-dropdown">
             <NavDropdown.Item href="/Contact">
               <i className="fa fa-address-card"></i> Contact Form

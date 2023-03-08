@@ -4,13 +4,13 @@ import Button from 'react-bootstrap/Button';
 import '../pages/Home.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import profilePic from "../assets/images/profilePic.jpg";
 
 
 function Home() {
   return (
     <div style={{
-      backgroundImage: `url("../public/images/homeBackground.jpg")`,
-
+      backgroundImage: `url(https://t4.ftcdn.net/jpg/01/29/27/73/360_F_129277373_HOQaWFD8bupLUvqF6NWg4dkSkR80HPzO.jpg)`,
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
       width: 'auto',
@@ -23,7 +23,7 @@ function Home() {
           <Col xs={1}>
           </Col>
           <Col xs={2}>
-            <img src='https://github.com/IanMilli/Professional-Profile-Using-React-Js/blob/main/public/images/profilepic.jpg' alt="profilepic" id="profilepic"></img>
+            <img src={profilePic} alt="profilepic" id="profilepic"></img>
           </Col>
           <Col xs={9}> <h3 className="text-center homeText" >
             Welcome, I am Ian Millichamp,</h3>
