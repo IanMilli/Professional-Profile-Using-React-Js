@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Professional-Profile-Using-React-Js/static/css/main.de9d95a0.css",
-    "main.js": "/Professional-Profile-Using-React-Js/static/js/main.2f2a7c5f.js",
+    "main.css": "/Professional-Profile-Using-React-Js/static/css/main.ff1800a6.css",
+    "main.js": "/Professional-Profile-Using-React-Js/static/js/main.a19b08ff.js",
     "static/js/787.39a2b41a.chunk.js": "/Professional-Profile-Using-React-Js/static/js/787.39a2b41a.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Professional-Profile-Using-React-Js/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/Professional-Profile-Using-React-Js/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -9,16 +9,16 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/Professional-Profile-Using-React-Js/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/NewtSerifBold-Italic.otf": "/Professional-Profile-Using-React-Js/static/media/NewtSerifBold-Italic.f8659da0e08689a02ec7.otf",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Professional-Profile-Using-React-Js/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/profilePic.jpg": "/Professional-Profile-Using-React-Js/static/media/profilePic.16d212d39bef1b993aff.jpg",
+    "static/media/profilepic.jpg": "/Professional-Profile-Using-React-Js/static/media/profilepic.16d212d39bef1b993aff.jpg",
     "static/media/logoNav.png": "/Professional-Profile-Using-React-Js/static/media/logoNav.a09a3a386282c3e636be.png",
     "static/media/logoFoot.png": "/Professional-Profile-Using-React-Js/static/media/logoFoot.e6f332caba511e12472c.png",
     "index.html": "/Professional-Profile-Using-React-Js/index.html",
-    "main.de9d95a0.css.map": "/Professional-Profile-Using-React-Js/static/css/main.de9d95a0.css.map",
-    "main.2f2a7c5f.js.map": "/Professional-Profile-Using-React-Js/static/js/main.2f2a7c5f.js.map",
+    "main.ff1800a6.css.map": "/Professional-Profile-Using-React-Js/static/css/main.ff1800a6.css.map",
+    "main.a19b08ff.js.map": "/Professional-Profile-Using-React-Js/static/js/main.a19b08ff.js.map",
     "787.39a2b41a.chunk.js.map": "/Professional-Profile-Using-React-Js/static/js/787.39a2b41a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de9d95a0.css",
-    "static/js/main.2f2a7c5f.js"
+    "static/css/main.ff1800a6.css",
+    "static/js/main.a19b08ff.js"
   ]
 }
