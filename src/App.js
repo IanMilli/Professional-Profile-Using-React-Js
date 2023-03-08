@@ -17,7 +17,7 @@ import ReadMe from "./pages/ReadMe";
 import Revision from "./pages/Revision";
 import Weather from "./pages/Weather";
 
-import NavBar from './components/navbar.js';
+import Navigation from './components/navbar.js';
 import Footer from './components/footer.js';
 
 import "./assets/fonts/NewtSerifBold-Italic.otf"
@@ -26,7 +26,7 @@ import "./assets/fonts/NewtSerifBold-Italic.otf"
 function App() {
   return (
     <Router basename="Professional-Profile-Using-React-Js/">
-      <NavBar />
+      <Navigation />
       <Routes>
         <Route  path="/" element={<Home />} />
         <Route  path="/About" element={<About />} />
