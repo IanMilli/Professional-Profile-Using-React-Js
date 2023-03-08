@@ -13,7 +13,7 @@ const cards = [
     title: "Personal      Web Development Projects",
     front: "",
     back: "Click the link below to learn more about Web Applications I have Created Through My Learning",
-    address: "'/Personal'",
+    address: "/Projects/Personal",
     linkTitle: "Personal Development Projects"
   },
   {
