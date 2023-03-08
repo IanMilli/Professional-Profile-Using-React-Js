@@ -16,7 +16,7 @@ const cards = [
     tech:"HTML, Bootstrap 4.31, CSS, Flexbox, Node Js (creation of readme), JavaScript",
     repo: "https://github.com/LauraCole1900/bcms",
     deployed: "https://ianmilli.github.io/Basic-Random-Password-Generator-Web-Application/",
-    deploy_button_label: ""
+    deploy_button_label: "Deployed Application"
   },
   {
     id: "2",
@@ -28,7 +28,7 @@ const cards = [
     tech: " HTML, CSS, FlexBox, JavaScript, Node JS (Readme Generator) , ES6",
     repo: "https://github.com/IanMilli/Advanced-Random-Password-Generator--Web-Application",
     deployed: "https://ianmilli.github.io/Advanced-Random-Password-Generator--Web-Application/",
-    deploy_button_label: ""
+    deploy_button_label: "Deployed Application"
   },
   {
     id: "3",
@@ -40,7 +40,7 @@ const cards = [
     tech: " Jquery, HTML, CSS, Bootstrap, Javascript, Moments library, Node JS (Readme Generator) , ES6,",
     repo: "https://github.com/IanMilli/Daily-Work-Schedule",
     deployed: "https://ianmilli.github.io/Advanced-Random-Password-Generator--Web-Application/",
-    deploy_button_label: ""
+    deploy_button_label: "Deployed Application"
   },
   {
     id: "4",
@@ -52,7 +52,7 @@ const cards = [
     tech: " Jquery, HTML, CSS, Bootstrap, Javascript, Moments library, Node JS (Readme Generator) , ES6, API, AJAX",
     repo: "https://github.com/IanMilli/Global-City-Weather-Dashboard-",
     deployed: "https://ianmilli.github.io/Global-City-Weather-Dashboard-/",
-    deploy_button_label: ""
+    deploy_button_label: "Deployed Application"
   },
   {
     id: "5",
@@ -64,7 +64,7 @@ const cards = [
     tech: " HTML5, CSS3, JavaScript, Bootstrap, FlexBox",
     repo: "https://github.com/IanMilli/Revision-Cards-Web-Application",
     deployed: "https://ianmilli.github.io/Revision-Cards-Web-Application/",
-    deploy_button_label: ""
+    deploy_button_label: "Deployed Application"
   },
   {
     id: "6",
@@ -99,7 +99,7 @@ const cards = [
     description: "  This is an early development of my current Professional Profile to demonstrate my development in skills in Front End Web Development",
     repo: "https://github.com/IanMilli/Professional-Profile-",
     deployed: "https://ianmilli.github.io/Professional-Profile-/",
-    deploy_button_label: ""
+    deploy_button_label: "Deployed Application"
   },
  
 ];

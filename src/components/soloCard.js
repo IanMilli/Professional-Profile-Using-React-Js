@@ -1,6 +1,7 @@
 import { useState } from "react";
 import cn from "classnames";
-import {Link, } from "react-router-dom";
+import React from "react";
+import Button from 'react-bootstrap/Button';
 
 function SoloFlipCard({ card }) {
   const [showBack, setShowBack] = useState(false);
@@ -48,7 +49,8 @@ function SoloFlipCard({ card }) {
         <div className="card back">
           <div className="card-body text-center">
             <p className="card-text ">{card.description}</p>
-            <Link to={card.address}  ><h2>{card.linkTitle}</h2></Link>
+            <Button variant="primary" href={card.repo}><i className="fa fa-github"></i>GitHub Repository</Button>{' '}
+            <Button variant="primary" href={card.deployed}>{card.deploy_button_label}</Button>{' '}
           </div>
         </div>
       </div>
