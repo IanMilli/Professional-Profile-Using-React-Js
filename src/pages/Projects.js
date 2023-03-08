@@ -18,7 +18,7 @@ const cards = [
   },
   {
     id: "2",
-    variant: "focus",
+    variant: "hover",
     title: "Professional Web Development Work",
     front: "",
     back: "Click the link below to learn more Web Applications I have Created For Professional Projects",
@@ -27,7 +27,7 @@ const cards = [
   },
   {
     id: "3",
-    variant: "click",
+    variant: "hover",
     title: "Voluntary Web Development Projects",
     front: "",
     back: "Click the link below to learn more Web Applications I have Created For Non Profit Groups",

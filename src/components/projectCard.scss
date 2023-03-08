@@ -3,7 +3,7 @@
 .card {
   font-family: 'Ubuntu', sans-serif;
   background-image: radial-gradient(farthest-corner at 40px 40px,
-  #f35 0%, #43e 100%);
+  rgb(221, 51, 255) 0%, rgb(51, 201, 238) 100%);
 }
 
 .container {
@@ -16,7 +16,7 @@
   margin: 25px 0;
 
   &.focus-trigger:focus {
-    outline: 5px solid greenyellow;
+    outline: 5px solid navy;
     outline-offset: 5px;
   }
 
