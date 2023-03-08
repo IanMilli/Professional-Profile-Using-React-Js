@@ -10,18 +10,21 @@ const cards = [
   {
     id: "1",
     variant: "hover",
-    front: "Hover",
-    back: "Back"
+    title: "Personal Development Projects",
+    front: "",
+    back: "Click the link below to learn more about Personal Developments",
+    address: "'/Personal'",
+    linkTitle: "Personal Development Projects"
   },
   {
     id: "2",
-    variant: "click",
+    variant: "focus",
     front: "Click",
     back: "Back"
   },
   {
     id: "3",
-    variant: "focus",
+    variant: "click",
     front: "Focus",
     back: "Back"
   }
