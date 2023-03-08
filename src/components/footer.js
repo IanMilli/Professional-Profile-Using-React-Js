@@ -2,11 +2,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../components/footer.css';
+import logoFoot from "../assets/images/logoFoot.png";
 
 function Footer() {
     return (
         <Navbar expand="lg" className='footer'>
-            <img src='../public/images/logoFoot.png' href="#home"id="logoFoot" alt='logo Img'></img>
+
+            <img src={logoFoot} href="#home"id="logoFoot" alt='logo Img'></img>
+
             <Container>
                 <Nav>
 
