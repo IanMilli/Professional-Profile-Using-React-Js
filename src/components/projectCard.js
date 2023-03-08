@@ -40,14 +40,14 @@ function FlipCard({ card }) {
         })}
       >
         <div className="card front">
-          <div className="card-body d-flex justify-content-center align-items-center">
+          <div className="card-body text-center">
             <h1 className="text-white">{card.title}</h1>
             <p className="card-text fs-1 fw-bold">{card.front}</p>
           </div>
         </div>
         <div className="card back">
-          <div className="card-body d-flex justify-content-center align-items-center">
-            <p className="card-text fs-1 fw-bold">{card.back}</p>
+          <div className="card-body text-center">
+            <p className="card-text ">{card.back}</p>
             <Link to={card.address}  ><h2>{card.linkTitle}</h2></Link>
           </div>
         </div>
