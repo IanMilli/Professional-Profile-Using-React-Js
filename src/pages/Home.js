@@ -4,13 +4,13 @@ import Button from 'react-bootstrap/Button';
 import '../pages/Home.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import profilePic from "../assets/images/profilePic.jpg";
+import profilePic from "../assets/images/profilepic.jpg";
 
 
 function Home() {
   return (
     <div style={{
-      backgroundImage: `url(https://t4.ftcdn.net/jpg/01/29/27/73/360_F_129277373_HOQaWFD8bupLUvqF6NWg4dkSkR80HPzO.jpg)`,
+      backgroundImage: `url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fen%2Fhd-wallpaper-desktop-envag&psig=AOvVaw1Ye8dbUfkjUIEDmgaEX-eC&ust=1678357226762000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLCB9quOzP0CFQAAAAAdAAAAABAE)`,
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
       width: 'auto',
