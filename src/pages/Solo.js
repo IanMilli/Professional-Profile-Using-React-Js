@@ -9,34 +9,18 @@ const cards = [
   {
     id: "1",
     variant: "hover",
-    title: "Personal      Web Development Projects",
+    title: "Solo Authored Web Development Projects",
     front: "",
-    back: "Click the link below to learn more about Web Applications I have Created Through My Learning",
-    address: "/Projects/Personal",
-    linkTitle: "Personal Development Projects"
+    back: "Click the link below to learn more about Web Applications I have Created Myself",
+    address: "/Projects/Personal/Solo",
+    linkTitle: "Solo Authored Projects"
   },
-  {
-    id: "2",
-    variant: "hover",
-    title: "Professional Web Development Work",
-    front: "",
-    back: "Click the link below to learn more Web Applications I have Created For Professional Projects",
-    address: "'/Professional'",
-    linkTitle: "Professional Development Projects"
-  },
-  {
-    id: "3",
-    variant: "hover",
-    title: "Voluntary Web Development Projects",
-    front: "",
-    back: "Click the link below to learn more Web Applications I have Created For Non Profit Groups",
-    address: "'/Voluntary'",
-    linkTitle: "Voluntary Development Projects"
-  }
+
+ 
 ];
 
 
-function Projects() {
+function Solo() {
   return (
     <div style={{
       backgroundImage: `url("../images/homeBackground.jpg")`,
@@ -66,4 +50,4 @@ function Projects() {
 
 
 
-      export default Projects;
+      export default Solo;
