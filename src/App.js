@@ -11,7 +11,7 @@ import Solo from "./pages/Solo";
 
 
 
-import Navigation from './components/navbar.js';
+import Navigation from './components/Navbar.jsx';
 import Footer from './components/footer.js';
 
 import "./assets/fonts/NewtSerifBold-Italic.otf"

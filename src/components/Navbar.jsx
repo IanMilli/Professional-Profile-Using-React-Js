@@ -4,8 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import '../components/navbar.css';
-import logoNav from "../assets/images/logoNav.png";
+import '../components/Navbar.css';
+import {Media} from 'reactstrap'
+import logoNav from "../assets/images/- IanMillichamp-.mp4";
 
 
 
@@ -14,7 +15,10 @@ import logoNav from "../assets/images/logoNav.png";
 const Navigation = () =>{
   return (
     <Navbar expand="lg" className='navigation'>
-      <img src={logoNav} href="#home"id="logoNav" alt='logo Img'></img>
+       <Media tag='a' href=
+            {logoNav}>
+                
+                    </Media>
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

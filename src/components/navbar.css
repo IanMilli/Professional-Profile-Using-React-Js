@@ -39,11 +39,7 @@ h2 {
 
 
 
-#logoNav {
-    height:100%;
-    margin-left: 10vh;
 
-}
 
 @media screen and (max-width: 576px) {
     #projects-nav-dropdown,
@@ -53,7 +49,7 @@ h2 {
     #logoNav {
         margin-left: auto;
         margin-right: auto;
-        height: 30vh;
+        
     }
 .navigation {
     height: auto;
