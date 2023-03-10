@@ -1,10 +1,7 @@
-import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Container';
 import React from "react";
-import Button from 'react-bootstrap/Button';
 import '../pages/Home.css';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
+import { TypeAnimation } from 'react-type-animation';
 import homePic from "../assets/images/homePage.jpg";
 
 
@@ -18,20 +15,33 @@ function Home() {
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
       width: 'auto',
-      height: '80vh'
+      height: '100vh'
     }}>
-      <Container className='Home'>
-      <h1>
-  <span>always be</span>
-  <div class="message">
-    <div class="word1">close</div>
-    <div class="word2">code</div>
-    <div class="word3">creating</div>
-  </div>
-</h1>
-      </Container>
+      <Row>
+       <h4 className="text">Ian Millichamp</h4>
+    <div className='animationBox'>
+        <TypeAnimation className="animationText"
+          sequence={[
+            'Front End Web Developer'
+            , 
+            5000, 
+            'Chef, Hospitality Manager', 
+            5000, 
+            'Archery Instructor',
+            5000, 
+            () => {
+             
+            }
+          ]}
+          wrapper="div"
+          cursor={true}
+          repeat={Infinity}
+          style={{ fontSize: '2em' }}
+        />
+       </div> 
+       </Row>
     </div>
-
+    
   );
 }
 
