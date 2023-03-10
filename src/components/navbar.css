@@ -1,27 +1,27 @@
 h1 {
-font-size: 3.5vw;
-font-family: cursive;    
+
+font-family: Georgia, 'Times New Roman', Times, serif; 
+color: #2f3061;   
+padding-top: 3vh;
+
 }
-h2 {
-    font-size: 2vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+.selected{
+    color:#6CA6C1;
 }
 
 #connect-nav-dropdown{
-    font-size: 2vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 700;
+    color: #2f3061;
+    font-size: 1.8vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
 
 }
 
-#projects-nav-dropdown {
-    font-size: 2vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 700;
-}
+
 .navigation{
 
-    background-color: #E5FCFF;
+    background-color: #6CA6C1;
     border-bottom: #abdafc solid 1vh;
     height: 25vh;
 }
@@ -32,7 +32,7 @@ h2 {
 #projects-nav-dropdown,
 #connect-nav-dropdown
  {
-    border-bottom: #b8336a solid 0.5vh;
+    
     margin-right: 3vh;
     
 }

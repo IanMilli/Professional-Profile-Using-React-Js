@@ -5,8 +5,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../components/Navbar.css';
-import {Media} from 'reactstrap'
-import logoNav from "../assets/images/- IanMillichamp-.mp4";
+import ReactPlayer from 'react-player'
+
 
 
 
@@ -15,23 +15,20 @@ import logoNav from "../assets/images/- IanMillichamp-.mp4";
 const Navigation = () =>{
   return (
     <Navbar expand="lg" className='navigation'>
-       <Media tag='a' href=
-            {logoNav}>
-                
-                    </Media>
+      <ReactPlayer url="https://drive.google.com/file/d/1CU5UrGA1ldV69O4nwkPXtCeF7r7W9avE/view?usp=sharing" />
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             </Nav>
             <Nav >
-            <Link to="/" className="home" ><h2>Home</h2></Link>
-            <Link to="/About" className="about"><h2>About </h2></Link>
-            <Link to="/Projects" className="projects"><h2>Projects</h2></Link>
-            <Link to={"https://drive.google.com/file/d/1K5jShP_8ROMvbdFBl_IGcTLy-VllgJRN/view?usp=sharing"}className="resume"><h2>Resume</h2></Link>
+            <Link style={{ color: '#6CA6C1',  }} to="/" className="home" activeClassName="selected"><h1>Home</h1></Link>
+            <Link style={{ color: '#6CA6C1' }} to="/About" className="about"><h1>About </h1></Link>
+            <Link style={{ color: '#6CA6C1' }} to="/Projects" className="projects"><h1>Projects</h1></Link>
+            <Link style={{ color: '#6CA6C1' }} to={"https://drive.google.com/file/d/1K5jShP_8ROMvbdFBl_IGcTLy-VllgJRN/view?usp=sharing"}className="resume"><h1>Resume</h1></Link>
             <NavDropdown  title="Lets Connect !" id="connect-nav-dropdown">
             <NavDropdown.Item >
-            <Link to="/Contact"><i className="fa fa-address-card"></i> Contact Form</Link>
+            <Link style={{ color: '#2f3061' }} to="/Contact"><i className="fa fa-address-card"></i> Contact Form</Link>
               
               </NavDropdown.Item>
               <NavDropdown.Divider />
