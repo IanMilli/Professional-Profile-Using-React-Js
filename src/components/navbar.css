@@ -1,30 +1,47 @@
 h1 {
 
 font-family: Georgia, 'Times New Roman', Times, serif; 
-color: #2f3061;   
-padding-top: 3vh;
+color: #FFE66D;   
+padding-top: 2vh;
 font-size: 1.8vw !important;
 
 }
-
-.selected{
-    color:#6CA6C1;
+h1:hover{
+    color: #F7FFF7 !important;
 }
+h2 {
 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #FFE66D;   
+    padding-top: 1.5vh;
+    font-size: 1.4vw !important;
+    
+    }
+    h2:hover{
+        color: #F7FFF7 !important;
+    }
+.dropdown-menu.show{
+    background-color: #2f3061;
+}
 #connect-nav-dropdown{
-    color: #2f3061;
+    color: #FFE66D;
     font-size: 1.8vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
   
 
 }
-
+#drop{
+    background-color:#2f3061 ;
+    color: #FFE66D !important;
+}
 
 
 
 .navigation{
 
-    background-color: #6CA6C1;
+    background-color: #2f3061;
   
     height: 25vh;
 }
