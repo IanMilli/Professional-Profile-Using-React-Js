@@ -1,29 +1,61 @@
 h1 {
-font-size: 3.5vw;
-font-family: cursive;    
+
+font-family: Georgia, 'Times New Roman', Times, serif; 
+color:#F7FFF7 ;   
+padding-top: 2vh;
+font-size: 1.8vw !important;
+
+}
+h1:hover{
+    color: #FFE66D !important;
 }
 h2 {
-    font-size: 2vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #F7FFF7;   
+    padding-top: 1.5vh;
+    font-size: 1.4vw !important;
+    
+    }
+    h2:hover{
+        color: #FFE66D !important;
+    }
+
+    #testIcon{
+
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        color:#6CA6C1 ;   
+        padding-top: 1.5vh;
+        font-size: 1.4vw !important;
+        
+        }
+        #testIcon:hover{
+            color: #F7FFF7 !important;
+        }
+.dropdown-menu.show{
+    background-color: #2f3061;
+}
 #connect-nav-dropdown{
-    font-size: 2vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 700;
-
+    color: #F7FFF7;
+    font-size: 1.8vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#connect-nav-dropdown:hover {
+    color: #FFE66D !important;
 }
 
-#projects-nav-dropdown {
-    font-size: 2vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 700;
+#drop{
+    background-color:#2f3061 ;
+    color: #FFE66D !important;
 }
+
+
+
 .navigation{
 
-    background-color: #E5FCFF;
-    border-bottom: #abdafc solid 1vh;
-    height: 25vh;
+    background-color: #2f3061;
+  
+    height: 20vh;
 }
 .home,
 .about,
@@ -32,18 +64,14 @@ h2 {
 #projects-nav-dropdown,
 #connect-nav-dropdown
  {
-    border-bottom: #b8336a solid 0.5vh;
+    
     margin-right: 3vh;
     
-}
+    
+ }
 
 
 
-#logoNav {
-    height:100%;
-    margin-left: 10vh;
-
-}
 
 @media screen and (max-width: 576px) {
     #projects-nav-dropdown,
@@ -53,7 +81,7 @@ h2 {
     #logoNav {
         margin-left: auto;
         margin-right: auto;
-        height: 30vh;
+        
     }
 .navigation {
     height: auto;
