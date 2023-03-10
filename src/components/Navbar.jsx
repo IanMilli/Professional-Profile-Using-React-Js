@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../components/Navbar.css';
 import ReactPlayer from 'react-player'
+import Row from 'react-bootstrap/Row';
 
 
 
@@ -28,29 +29,31 @@ const Navigation = () => {
             <Link style={{ color: '#2F3061' }} to={"https://drive.google.com/file/d/1K5jShP_8ROMvbdFBl_IGcTLy-VllgJRN/view?usp=sharing"} className="resume"><h1>Resume</h1></Link>
             <NavDropdown title="Lets Connect !" id="connect-nav-dropdown">
               <NavDropdown.Item id="drop" >
-                <Link style={{ color: '#2F3061' }} to="/Contact"><h2><i className="fa fa-address-card"></i> Contact Form</h2></Link>
+                <Link style={{ color: '#2F3061' }} to="/Contact"><h2><i className="fa fa-address-card"style={{ color: '#6CA6C1' }}></i> Contact Form</h2></Link>
 
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item id="drop" href="tel:+4407498174271">
-                <i className="fa fa-phone"></i> Phone
+                <h2> <i className="fa fa-phone"style={{ color: '#6CA6C1' }}></i> Phone</h2>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item id="drop" href="mailto:ianmillichamp.2@gmail.com"><i className="fa fa-envelope"></i> Email </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item id="drop" href="https://www.linkedin.com/in/ian-millichamp/">
-                <i className="fa fa-linkedin"></i> LinkedIn
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item id="drop" href="https://github.com/IanMilli">
-                <i className="fa fa-github"></i> GitHub
-              </NavDropdown.Item>
-            </NavDropdown>
+            
+                <NavDropdown.Item id="drop" href="mailto:ianmillichamp.2@gmail.com"> <h2> <i className="fa fa-envelope"style={{ color: '#6CA6C1' }}></i>    Email </h2></NavDropdown.Item>
+          
+          <NavDropdown.Divider />
+          <NavDropdown.Item id="drop" href="https://www.linkedin.com/in/ian-millichamp/">
+            <h2><i className="fa fa-linkedin"style={{ color: '#6CA6C1' }}></i> LinkedIn</h2>
+          </NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item id="drop" href="https://github.com/IanMilli">
+            <h2> <i className="fa fa-github"style={{ color: '#6CA6C1' }}></i> GitHub</h2>
+          </NavDropdown.Item>
+        </NavDropdown>
 
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+      </Nav>
+    </Navbar.Collapse>
+      </Container >
+    </Navbar >
   );
 }
 

@@ -20,6 +20,18 @@ h2 {
     h2:hover{
         color: #F7FFF7 !important;
     }
+
+    #testIcon{
+
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        color:#6CA6C1 ;   
+        padding-top: 1.5vh;
+        font-size: 1.4vw !important;
+        
+        }
+        #testIcon:hover{
+            color: #F7FFF7 !important;
+        }
 .dropdown-menu.show{
     background-color: #2f3061;
 }
