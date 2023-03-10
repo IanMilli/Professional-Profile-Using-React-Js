@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../components/Navbar.css';
-import ReactPlayer from 'react-player'
+import logoPic from '../assets/images/logoPic.mp4';
 
 
 
@@ -16,7 +16,8 @@ import ReactPlayer from 'react-player'
 const Navigation = () => {
   return (
     <Navbar expand="lg" className='navigation'>
-      <ReactPlayer url="https://drive.google.com/file/d/1u-mVDb1cqub7Vdj5WMbB61bsPwvgSCiJ/view?usp=sharing" />
+     <video autoPlay muted src={logoPic} style={{ width: '40vh',height:'40vh' , marginLeft:'10vh'}}/>
+     
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
