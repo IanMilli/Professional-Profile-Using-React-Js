@@ -5,6 +5,7 @@ import '../pages/Home.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import profilePic from "../assets/images/profilepic.jpg";
+import {Media} from 'reactstrap'
 
 
 function Home() {
