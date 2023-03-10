@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/Professional-Profile-Using-React-Js/static/css/main.85d1bbe8.css",
-    "main.js": "/Professional-Profile-Using-React-Js/static/js/main.4fd723cf.js",
+    "main.css": "/Professional-Profile-Using-React-Js/static/css/main.dbd962bd.css",
+    "main.js": "/Professional-Profile-Using-React-Js/static/js/main.60f14b0a.js",
     "static/js/787.39a2b41a.chunk.js": "/Professional-Profile-Using-React-Js/static/js/787.39a2b41a.chunk.js",
+    "static/media/homePage.jpg": "/Professional-Profile-Using-React-Js/static/media/homePage.553aeee817906b57a3f1.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Professional-Profile-Using-React-Js/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/Professional-Profile-Using-React-Js/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Professional-Profile-Using-React-Js/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/Professional-Profile-Using-React-Js/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/NewtSerifBold-Italic.otf": "/Professional-Profile-Using-React-Js/static/media/NewtSerifBold-Italic.f8659da0e08689a02ec7.otf",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Professional-Profile-Using-React-Js/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/profilepic.jpg": "/Professional-Profile-Using-React-Js/static/media/profilepic.16d212d39bef1b993aff.jpg",
-    "static/media/logoNav.png": "/Professional-Profile-Using-React-Js/static/media/logoNav.a09a3a386282c3e636be.png",
-    "static/media/logoFoot.png": "/Professional-Profile-Using-React-Js/static/media/logoFoot.e6f332caba511e12472c.png",
     "index.html": "/Professional-Profile-Using-React-Js/index.html",
-    "main.85d1bbe8.css.map": "/Professional-Profile-Using-React-Js/static/css/main.85d1bbe8.css.map",
-    "main.4fd723cf.js.map": "/Professional-Profile-Using-React-Js/static/js/main.4fd723cf.js.map",
+    "main.dbd962bd.css.map": "/Professional-Profile-Using-React-Js/static/css/main.dbd962bd.css.map",
+    "main.60f14b0a.js.map": "/Professional-Profile-Using-React-Js/static/js/main.60f14b0a.js.map",
     "787.39a2b41a.chunk.js.map": "/Professional-Profile-Using-React-Js/static/js/787.39a2b41a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85d1bbe8.css",
-    "static/js/main.4fd723cf.js"
+    "static/css/main.dbd962bd.css",
+    "static/js/main.60f14b0a.js"
   ]
 }
