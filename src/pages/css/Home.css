@@ -5,6 +5,23 @@ h4{
   margin-right: auto;
   color:#2f3061 ;
 }
+h5 {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFE66D;
+	background-color: #2f3061;
+    padding-top: 2vh;
+    font-size: 2.5vw !important;
+	width: 35%;
+	margin-right: auto;
+	margin-top: 5vh;
+	text-align: center;
+	margin-left: 63%;
+}
+
+h5:hover {
+    color: #F7FFF7 !important;
+}
 
 .text{
 	
@@ -37,7 +54,7 @@ h4{
 .animationText {
   background-color: #FFE66D;
   color:#2f3061 ;
-  width:60vh;
+  width:70vh;
   font-size:2.8vw !important;
   text-align: center;
   margin-top: 5vh !important;
@@ -48,6 +65,7 @@ h4{
 	transform: translateX(200%);
 	opacity: 0;
 	animation: slide-in-box 2.5s ease-out forwards;
+	margin-bottom: 8vh;
 }
 
 @keyframes slide-in-box {

@@ -1,7 +1,8 @@
-import Row from 'react-bootstrap/Container';
+
 import React from "react";
 import '../pages/css/Home.css';
 import { TypeAnimation } from 'react-type-animation';
+import { Link, } from "react-router-dom";
 import homePic from "../assets/images/homePage.jpg";
 
 
@@ -17,7 +18,7 @@ function Home() {
       width: 'auto',
       height: '140vh'
     }}>
-      <Row>
+    
        <h4 className="text">Ian Millichamp</h4>
     <div className='animationBox'>
         <TypeAnimation className="animationText"
@@ -41,7 +42,8 @@ function Home() {
           style={{ fontSize: '2em' }}
         />
        </div> 
-       </Row>
+   
+       <Link style={{ color: '#2f3061' }} to="/About" className="aboutLink "><h5>Click To Learn More About Me</h5></Link>
     </div>
     
   );

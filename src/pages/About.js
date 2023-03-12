@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import React from "react";
-import "animate.css/animate.min.css";
+import 'animate.css';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import profilePic from '../assets/images/profilepic.jpg';
 import Row from 'react-bootstrap/Row'
@@ -14,25 +14,19 @@ function Home() {
             <Container >
                 <Row>
                     <Col xs={2}>
-                    <img src={profilePic} alt="Profile Pic" className="profilePic"/>
+                        <img src={profilePic} alt="Profile Pic" className="profilePic" />
                     </Col>
                     <Col xs={8}>
-                    <ScrollAnimation animateIn='fadeIn'
-  animateOut='fadeOut'>
-  <h1>
-    React Animate On Scroll
-  </h1>
-  <h2>
-    Using:
-  </h2>
-</ScrollAnimation>
+                        <AnimationOnScroll animateIn="animate__backInDown">
+                            <h4>Some Text</h4>
+                        </AnimationOnScroll>
                     </Col>
                 </Row>
-               
-       </Container>
 
-        
-       </div>
+            </Container>
+
+
+        </div>
     );
 }
 
