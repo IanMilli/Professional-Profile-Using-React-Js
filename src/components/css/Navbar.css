@@ -1,0 +1,158 @@
+h1 {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F7FFF7;
+    padding-top: 2vh;
+    font-size: 2.5 !important;
+
+}
+
+h1:hover {
+    color: #FFE66D !important;
+}
+
+h2 {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F7FFF7;
+    padding-top: 1.5vh;
+    font-size: 2vw !important;
+
+}
+
+h2:hover {
+    color: #FFE66D !important;
+}
+
+#testIcon {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #6CA6C1;
+    padding-top: 1.5vh;
+    font-size: 1.4vw !important;
+
+}
+
+#testIcon:hover {
+    color: #F7FFF7 !important;
+}
+
+.dropdown-menu.show {
+    background-color: #2f3061;
+}
+
+#connect-nav-dropdown {
+    color: #F7FFF7;
+    font-size: 2.5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#connect-nav-dropdown:hover {
+    color: #FFE66D !important;
+}
+
+#drop {
+    background-color: #2f3061;
+    color: #FFE66D !important;
+}
+
+
+
+.navigation {
+
+    background-color: #2f3061;
+
+    height: 25vh;
+}
+
+.home,
+.about,
+.resume,
+.projects,
+
+#connect-nav-dropdown {
+
+    margin-right: 8vh;
+
+
+}
+
+.navbar-toggler-icon {
+    background-color: #F7FFF7 !important;
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+   
+
+    #logoNav {
+        margin-left: 50% !important;
+        
+        padding: 0;
+        margin-bottom: 0;
+        height: 40vh
+    }
+
+    .navbar-toggler {
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+    }
+
+    .home,
+    .about,
+    .resume,
+    .projects,
+    #connect-nav-dropdown,
+    #drop {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navigation {
+        height: auto;
+    }
+}
+
+@media (max-width:1000px) {
+
+
+  
+
+    #logoNav {
+        margin-left: auto;
+        margin-right: auto;
+       
+        padding: 0;
+        margin-bottom: 0;
+        height: 40vh
+    }
+
+    .navbar-toggler {
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+    }
+
+    .home,
+    .about,
+    .resume,
+    .projects,
+    #connect-nav-dropdown,
+    #drop {
+        margin-left: 42% !important;
+        
+    }
+
+    .navigation {
+        height: auto;
+    }
+
+    .navigation {
+        height: auto;
+    }
+}

@@ -1,13 +1,12 @@
 import Container from 'react-bootstrap/Container';
 import React from "react";
 import { LinkContainer } from 'react-router-bootstrap';
-import '../pages/About.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 import Spinner from 'react-bootstrap/Spinner';
 import { NavItem } from 'react-bootstrap';
-
+import '../pages/css/About.css';
 
 function Home() {
     return (

@@ -1,0 +1,58 @@
+h3 {
+    font-size: 2vw;
+}
+
+.footer {
+
+    background-color: #b8336a;
+    height: 15vh;
+
+}
+
+#phone,
+#email,
+#linkedin,
+#github {
+    margin-right: 6vh;
+}
+
+.copyright {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5vw;
+}
+
+#logoFoot {
+    height: 100%;
+    margin-left: 10vh;
+
+}
+
+@media screen and (max-width: 576px) {
+
+
+    .footer {
+        height: auto;
+        width: auto;
+    }
+    .copyright{
+margin-left: 1vh;
+
+    }
+   
+    .logo1 {
+        margin-left: 42% !important;
+    }
+}
+
+@media (max-width:1000px) {
+
+    .footer {
+        height: auto;
+    }
+
+   
+.logo1 {
+    margin-left: 42% !important;
+}
+}
