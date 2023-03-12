@@ -12,14 +12,14 @@ import Solo from "./pages/Solo";
 
 
 import Navigation from './components/Navbar.jsx';
-import Footer from './components/footer.js';
+import Footer from './components/Footer.jsx';
 
 import "./assets/fonts/NewtSerifBold-Italic.otf"
 
 
 function App() {
   return (
-    <Router basename="Professional-Profile-Using-React-Js/">
+    <Router>
       <Navigation />
       <Routes>
         <Route  path="/" element={<Home />} />

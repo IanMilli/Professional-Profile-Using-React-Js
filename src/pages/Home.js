@@ -1,7 +1,8 @@
-import Row from 'react-bootstrap/Container';
+
 import React from "react";
-import '../pages/Home.css';
+import '../pages/css/Home.css';
 import { TypeAnimation } from 'react-type-animation';
+import { Link, } from "react-router-dom";
 import homePic from "../assets/images/homePage.jpg";
 
 
@@ -15,20 +16,22 @@ function Home() {
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
       width: 'auto',
-      height: '100vh'
+      height: '140vh'
     }}>
-      <Row>
+    
        <h4 className="text">Ian Millichamp</h4>
     <div className='animationBox'>
         <TypeAnimation className="animationText"
           sequence={[
             'Front End Web Developer'
             , 
-            5000, 
-            'Chef, Hospitality Manager', 
-            5000, 
+            3000, 
+            'Chef,', 
+            3000, 
+            'Culinary Manager,', 
+            3000, 
             'Archery Instructor',
-            5000, 
+            3000, 
             () => {
              
             }
@@ -39,7 +42,8 @@ function Home() {
           style={{ fontSize: '2em' }}
         />
        </div> 
-       </Row>
+   
+       <Link style={{ color: '#2f3061' }} to="/About" className="aboutLink "><h5>Click To Learn More About Me</h5></Link>
     </div>
     
   );
