@@ -4,17 +4,21 @@ h3 {
 
 .footer {
 
-    background-color: #b8336a;
+    background-color: #6CA6C1;
     height: 15vh;
 
 }
 
+#contact,
 #phone,
 #email,
 #linkedin,
 #github {
     margin-right: 6vh;
+    color: #F7FFF7 !important;
 }
+   
+
 
 .copyright {
     margin-right: auto;
@@ -54,5 +58,6 @@ margin-left: 1vh;
    
 .logo1 {
     margin-left: 42% !important;
+   
 }
 }

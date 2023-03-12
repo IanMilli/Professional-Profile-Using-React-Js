@@ -1,8 +1,42 @@
+h6{font-size: 5vw !important;}
+
 .pageAbout{
     background-color: #f7fff7;
 }
-.profilePic {
-    width:100%;
-    margin-top:20vh;
-    border-radius: 50%;
+.profilePiCol {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
+.profilePic{
+width:100%;
+border-radius: 50%;
+margin-top: 6vh !important;
+border: solid #2f3061 2px;
+}
+   .aboutMeTitleText{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 6vh !important;
+   }
+   .aboutSumText1,
+   .aboutSumText2,
+   .aboutSumText3
+   {
+    text-align: center;
+    margin-bottom: 3vh;
+   }
+   .aboutSumText1,
+   .aboutSumText3{
+    color: #2f3061;
+   }
+   .aboutSumText2{
+    color:343434 ;
+   }
+   .technicalText {
+   display: flex;
+   justify-content: center;
+   }
