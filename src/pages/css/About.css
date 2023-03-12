@@ -1,7 +1,20 @@
-h6{font-size: 5vw !important;}
+h6{font-size: 5vw !important;
+font-weight: 300;}
+
+
+h8{
+    font-size: 3vw;
+    font-weight: 700;
+    margin-bottom: 8vh;
+}
+h9{
+    font-size: 2vw;
+}
+
 
 .pageAbout{
     background-color: #f7fff7;
+    height: 120vh;
 }
 .profilePiCol {
     
@@ -36,7 +49,16 @@ margin-top: 6vh !important;
    .aboutSumText2{
     color:343434 ;
    }
-   .technicalText {
+   .techText {
    display: flex;
    justify-content: center;
+   margin-top: 2vh;
+   }
+   .technicalLogoPic{
+    width: auto !important;
+    height:20vh;
+   
+   }
+   .technicalText{
+    margin-left: 5vh!important;
    }

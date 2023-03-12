@@ -24,7 +24,7 @@ const Navigation = () => {
           <Nav className="me-auto">
           </Nav>
           <Nav >
-            <Link style={{ color: '#2F3061', }} to="/" className="home" activeClassName="selected"><h1>Home</h1></Link>
+            <Link style={{ color: '#2F3061', }} to="/" className="home" ><h1>Home</h1></Link>
             <Link style={{ color: '#2F3061' }} to="/About" className="about"><h1>About </h1></Link>
             <Link style={{ color: '#2F3061' }} to="/Projects" className="projects"><h1>Projects</h1></Link>
             <Link style={{ color: '#2F3061' }} to={"https://drive.google.com/file/d/1K5jShP_8ROMvbdFBl_IGcTLy-VllgJRN/view?usp=sharing"} className="resume"><h1>Resume</h1></Link>
