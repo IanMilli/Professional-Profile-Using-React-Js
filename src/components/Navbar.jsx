@@ -16,9 +16,9 @@ import logoPic from '../assets/images/logoPic.mp4';
 const Navigation = () => {
   return (
     <Navbar expand="lg" className='navigation'>
-      <video autoPlay muted src={logoPic} style={{ width: '40vh', height: '20vh', marginLeft: '10vh' }} className="logoNav"/>
+      <video autoPlay muted src={logoPic} style={{ width: '40vh', height: '20vh', marginLeft: '10vh' }} className="logoNav" />
 
-      <Container  className="container">
+      <Container className="container">
         <Navbar.Toggle aria-controls="basic-navbar-nav " />
         <Navbar.Collapse id="basic-navbar-nav"  >
           <Nav className="me-auto">
@@ -26,7 +26,9 @@ const Navigation = () => {
           <Nav >
             <Link style={{ color: '#2F3061', }} to="/" className="home" ><h1>Home</h1></Link>
             <Link style={{ color: '#2F3061' }} to="/About" className="about"><h1>About </h1></Link>
-            <Link style={{ color: '#2F3061' }} to="/Projects" className="projects"><h1>Projects</h1></Link>
+            <Link style={{ color: '#2F3061' }} to="/Projects" className="projects"><h1>Web Design Projects</h1></Link>
+            <Link style={{ color: '#2F3061' }} to="/Chef" className="chef"><h1>Culinary Experience</h1></Link>
+            <Link style={{ color: '#2F3061' }} to="/Archery" className="archery"><h1>Interests</h1></Link>
             <Link style={{ color: '#2F3061' }} to={"https://drive.google.com/file/d/1K5jShP_8ROMvbdFBl_IGcTLy-VllgJRN/view?usp=sharing"} className="resume"><h1>Resume</h1></Link>
             <NavDropdown title="Lets Connect !" id="connect-nav-dropdown">
               <NavDropdown.Item id="drop" >

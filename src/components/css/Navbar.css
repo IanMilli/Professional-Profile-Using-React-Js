@@ -3,7 +3,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #F7FFF7;
     padding-top: 2vh;
-    font-size: 2.5 !important;
+    font-size: 2vw !important;
 
 }
 
@@ -43,7 +43,7 @@ h2:hover {
 
 #connect-nav-dropdown {
     color: #F7FFF7;
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -69,10 +69,13 @@ h2:hover {
 .about,
 .resume,
 .projects,
+.chef,
+.archery,
 
 #connect-nav-dropdown {
 
-    margin-right: 8vh;
+    margin-right: 3vh !important;
+    text-align: center !important;
 
 
 }
