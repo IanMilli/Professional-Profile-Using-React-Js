@@ -43,7 +43,7 @@ function Chef() {
         }}>
             <Container>
                 <Row>
-                    <div data-aos="flip-left" data-aos-duration="2900" className="quoteDiv">
+                    <div data-aos="flip-down" data-aos-duration="2900" className="quoteDiv">
 
 
                         <h3 style={{ marginTop: '3vh' }}> "Creativity is seeing what others see and thinking what no one else has ever thought." </h3>
