@@ -8,7 +8,7 @@ import Voluntary from "./pages/Voluntary";
 import Professional from "./pages/Professional";
 import Contact from "./pages/Contact";
 import Solo from "./pages/Solo";
-import Archery from "./pages/Archery";
+import Interests from "./pages/Interests";
 import Chef from "./pages/Chef.js";
 
 
@@ -32,7 +32,7 @@ function App() {
         <Route  path="/Projects/Voluntary" element={<Voluntary />} />
         <Route  path="/Projects/Professional" element={<Professional />} />
         <Route  path="/Chef" element={<Chef />} />
-        <Route  path="/Archery" element={<Archery />} />
+        <Route  path="/Interests" element={<Interests />} />
         <Route  path="/Contact" element={<Contact />} />
 
        
