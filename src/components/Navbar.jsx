@@ -28,7 +28,7 @@ const Navigation = () => {
             <Link style={{ color: '#2F3061' }} to="/About" className="about"><h1>About </h1></Link>
             <Link style={{ color: '#2F3061' }} to="/Projects" className="projects"><h1>Web Design Projects</h1></Link>
             <Link style={{ color: '#2F3061' }} to="/Chef" className="chef"><h1>Culinary Experience</h1></Link>
-            <Link style={{ color: '#2F3061' }} to="/Archery" className="archery"><h1>Interests</h1></Link>
+            <Link style={{ color: '#2F3061' }} to="/Interests" className="archery"><h1>Interests</h1></Link>
             <Link style={{ color: '#2F3061' }} to={"https://drive.google.com/file/d/1K5jShP_8ROMvbdFBl_IGcTLy-VllgJRN/view?usp=sharing"} className="resume"><h1>Resume</h1></Link>
             <NavDropdown title="Lets Connect !" id="connect-nav-dropdown">
               <NavDropdown.Item id="drop" >

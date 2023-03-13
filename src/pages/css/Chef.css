@@ -22,3 +22,40 @@
     margin-left: auto !important;
     margin-right: auto !important;
 }
+.quoteDiv {
+    background-color:#FFE66D ;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 3vh !important;
+}
+
+@media screen and (max-width: 576px) {
+	.pageAbout{
+		
+		height: 200vh;
+
+		
+	}
+    .employmentText{
+        margin-left: 0!important;
+       }
+ .employmentPic{
+    width: auto !important;
+    height:6vh;
+}
+   }
+
+@media (max-width:1000px) {
+	.pageAbout{
+		
+		height: 200vh;
+		
+	}
+    .employmentText{
+        margin-left: 0!important;
+       }
+    .employmentPic{
+        width: auto !important;
+        height:8vh;
+    }
+}
