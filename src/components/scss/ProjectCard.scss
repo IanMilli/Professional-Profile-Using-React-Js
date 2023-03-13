@@ -19,9 +19,9 @@
     outline: 5px solid navy;
     outline-offset: 5px;
   }
-  .cardImage {
-    width:10vh !important;
-    height:auto !important;
+  .cardImage{
+    margin-bottom: 1vh !important;
+    margin-top: 5vh !important;
   }
 
   .flip-card-inner {
@@ -38,7 +38,9 @@
     &.showBack {
       transform: rotateY(180deg);
     }
-  
+  .cardBackText{
+    color: #FFE66D;
+  }
     .card {
       backface-visibility: hidden;
       position: absolute;

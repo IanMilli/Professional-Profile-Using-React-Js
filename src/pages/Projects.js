@@ -2,10 +2,10 @@ import React from "react";
 import FlipCard from "../components/ProjectCard.jsx";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../components/ProjectCard.scss";
+import "../components/scss/ProjectCard.scss";
 import homePic from "../assets/images/homePage.jpg";
 import '../pages/css/projects.css';
-import { Container } from "react-bootstrap";
+
 import card1 from '../assets/images/cards/projectCard1.png'
 import card2 from '../assets/images/cards/projectCards2.png'
 import card3 from '../assets/images/cards/projectCard3.png'
@@ -23,12 +23,12 @@ const cards = [
   {
     id: "2",
     variant: "hover",
-    title: "Professional Web Development Work",
+    title: "Professional Web Development Projects",
     front: "",
     back: "Click the link below to learn more Web Applications I have Created For Professional Projects",
     address: "/Professional",
     linkTitle: "Professional Development Projects",
-    image:{card2}
+    image:card2
   },
   {
     id: "3",
@@ -38,7 +38,7 @@ const cards = [
     back: "Click the link below to learn more Web Applications I have Created For Non Profit Groups",
     address: "'/Voluntary'",
     linkTitle: "Voluntary Development Projects",
-    image:{card3}
+    image:card3
   }
 ];
 
@@ -54,7 +54,8 @@ function Projects() {
       height: '140vh'
     }}>
      
-        <div className="textProjectsHeader">To Review Web Design Projects I have been involved select from the following</div>
+        <div className="textProjectsHeader">To Review The Web Design Projects I have been involved with </div>
+        <div className="textProjectsHeader"> select from the following: </div>
 
 
         <div className="container">

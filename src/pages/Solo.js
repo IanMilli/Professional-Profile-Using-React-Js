@@ -2,7 +2,7 @@ import React from "react";
 import SoloFlipCard from "../components/SoloCard.jsx";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../components/ProjectCard.scss";
+import "../components/scss/ProjectCard.scss";
 
 
 const cards = [
