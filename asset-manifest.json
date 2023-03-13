@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Professional-Profile-Using-React-Js/static/css/main.72f968de.css",
+    "main.css": "/Professional-Profile-Using-React-Js/static/css/main.f976c00e.css",
     "main.js": "/Professional-Profile-Using-React-Js/static/js/main.6de442a5.js",
     "static/js/787.39a2b41a.chunk.js": "/Professional-Profile-Using-React-Js/static/js/787.39a2b41a.chunk.js",
     "static/media/github.png": "/Professional-Profile-Using-React-Js/static/media/github.33f2e0bac302afac02a0.png",
@@ -37,12 +37,12 @@
     "static/media/bb.jpg": "/Professional-Profile-Using-React-Js/static/media/bb.19ff75187507399586be.jpg",
     "static/media/hiltonBlackpool.jpg": "/Professional-Profile-Using-React-Js/static/media/hiltonBlackpool.61314b1c38b065a4698e.jpg",
     "index.html": "/Professional-Profile-Using-React-Js/index.html",
-    "main.72f968de.css.map": "/Professional-Profile-Using-React-Js/static/css/main.72f968de.css.map",
+    "main.f976c00e.css.map": "/Professional-Profile-Using-React-Js/static/css/main.f976c00e.css.map",
     "main.6de442a5.js.map": "/Professional-Profile-Using-React-Js/static/js/main.6de442a5.js.map",
     "787.39a2b41a.chunk.js.map": "/Professional-Profile-Using-React-Js/static/js/787.39a2b41a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72f968de.css",
+    "static/css/main.f976c00e.css",
     "static/js/main.6de442a5.js"
   ]
 }
