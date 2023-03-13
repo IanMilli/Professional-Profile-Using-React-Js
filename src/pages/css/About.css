@@ -62,3 +62,34 @@ margin-top: 6vh !important;
    .technicalText{
     margin-left: 5vh!important;
    }
+
+   @media screen and (max-width: 576px) {
+	.pageAbout{
+		
+		height: 170vh;
+
+		
+	}
+    .technicalText{
+        margin-left: 0!important;
+       }
+ .technicalLogoPic{
+    width: auto !important;
+    height:8vh;
+}
+   }
+
+@media (max-width:1000px) {
+	.pageAbout{
+		
+		height: 200vh;
+		
+	}
+    .technicalText{
+        margin-left: 0!important;
+       }
+    .technicalLogoPic{
+        width: auto !important;
+        height:6vh;
+    }
+}

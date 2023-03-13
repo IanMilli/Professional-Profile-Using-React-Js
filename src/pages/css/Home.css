@@ -94,6 +94,10 @@ h5:hover {
 }
 
 @media (max-width:1000px) {
-
+	.animationText{
+		width:25vh;
+		height: 5vh;
+		margin-left: 43%;
+	}
 
 }

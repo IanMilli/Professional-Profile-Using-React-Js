@@ -8,6 +8,8 @@ import Voluntary from "./pages/Voluntary";
 import Professional from "./pages/Professional";
 import Contact from "./pages/Contact";
 import Solo from "./pages/Solo";
+import Archery from "./pages/Archery";
+import Chef from "./pages/Chef.js";
 
 
 
@@ -19,7 +21,7 @@ import "./assets/fonts/NewtSerifBold-Italic.otf"
 
 function App() {
   return (
-    <Router>
+    <Router >
       <Navigation />
       <Routes>
         <Route  path="/" element={<Home />} />
@@ -29,6 +31,8 @@ function App() {
         <Route  path="/Projects/Personal/Solo" element={<Solo />} />
         <Route  path="/Projects/Voluntary" element={<Voluntary />} />
         <Route  path="/Projects/Professional" element={<Professional />} />
+        <Route  path="/Chef" element={<Chef />} />
+        <Route  path="/Archery" element={<Archery />} />
         <Route  path="/Contact" element={<Contact />} />
 
        
