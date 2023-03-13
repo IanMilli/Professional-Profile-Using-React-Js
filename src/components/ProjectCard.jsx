@@ -2,6 +2,7 @@ import { useState } from "react";
 import cn from "classnames";
 import {Link, } from "react-router-dom";
 
+
 function FlipCard({ card }) {
   const [showBack, setShowBack] = useState(false);
 
@@ -41,8 +42,9 @@ function FlipCard({ card }) {
       >
         <div className="card front">
           <div className="card-body text-center">
-            <h1 className="text-white">{card.title}</h1>
+          <h1 className="text-white">{card.title}</h1>
             <p className="card-text fs-1 fw-bold">{card.front}</p>
+            <img class="card-img-bottom" src={card.image} alt="Card image "/>
           </div>
         </div>
         <div className="card back">

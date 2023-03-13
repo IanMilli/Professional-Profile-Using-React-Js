@@ -1,0 +1,39 @@
+.text2{
+    font-size: 2vw;
+    color: #2f3061;
+    text-align: center !important;
+    margin-top: 10vh;
+   
+}
+.text3{
+    font-size: 1.3vw;
+    color: #F7FFF7;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+.text4{
+    font-size: 1.3vw;
+    color: #2f3061;
+    margin-right: 15%;
+    margin-left: 25%;
+    margin-top: 25vh;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+
+.archeryAnimationText {
+font-size: 2.5vw;
+color: #F7FFF7;
+text-align: center !important;
+margin-top: 8vh !important;
+text-align: center !important;
+}
+#gbArcheryPic{
+    margin-left: 1vh;
+    margin-right: 1vh;
+    height:2vw;
+}
+

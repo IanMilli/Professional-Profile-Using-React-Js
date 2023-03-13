@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Carousel from 'react-bootstrap/Carousel';
-import React, { useEffect,  } from "react";
+import React, { useEffect, } from "react";
 import { TypeAnimation } from 'react-type-animation';
 import 'animate.css';
 import AOS from 'aos';
@@ -34,57 +34,51 @@ function Interests() {
                 width: 'auto',
                 height: '140vh'
             }}>
-                <div >
-        <TypeAnimation 
-          sequence={[
-                            'My diverse intereasts in ..'
-                            ,
-                            3000,
-                            'My diverse intereasts in ..Archery,',
-                            3000,
-                            'My diverse intereasts in ..Gaming,',
-                            3000,
-                            'My diverse intereasts in ..Reading,',
-                            3000,
-                            'My diverse intereasts in ..Writing,',
-                            3000,
-                            'My diverse intereasts in ..Volunteering,',
-                            3000,
-                            () => {
+                <div data-aos="fade-right" data-aos-duration="2000" >
+                    <Row>
+                        <TypeAnimation className="archeryAnimationText"
+                            sequence={[
+                                'My diverse interests in ..'
+                                ,
+                                3000,
+                                'My diverse interests in ..Archery..',
+                                3000,
+                                'My diverse interests in ..Gaming..',
+                                3000,
+                                'My diverse interests in ..Reading..',
+                                3000,
+                                'My diverse interests in ..Writing..',
+                                3000,
+                                'My diverse interests in ..Film..',
+                                3000,
+                                'My diverse interests in ..Volunteering..',
+                                3000,
+                                () => {
 
-                            }
-                        ]}
-                        wrapper="div"
-                        cursor={true}
-                        repeat={Infinity}
-                        style={{ fontSize: '2em' }}
-                    />
+                                }
+                            ]}
+                            wrapper="div"
+                            cursor={true}
+                            repeat={Infinity}
+                            style={{ fontSize: '2em' }}
+                        />
+
+                    </Row>
                 </div>
 
-
-                <h9>My diverse interests in:  ● Archery, ●Writing, ●Gaming, and ●Reading provide creative outlets for me outside of work and have contributed significantly to my personal development. I have also gained valuable experience through my voluntary work. </h9>
+                <div data-aos="fade-left" data-aos-duration="2000" className="text2">..provide creative outlets for me outside of work and have contributed significantly to my personal development. I have also gained valuable experience through my voluntary work. </div>
 
                 <div>
-                    <img src={archery} alt="GB archery" style={{ backgroundColor: 'Maroon' }} />
-                    <div>Archery has been a significant contributor to my personal development, teaching me discipline, patience, and focus that have positively impacted various aspects of my life. I have learned to set and achieve challenging goals, and develop resilience in stressful situations, while also experiencing a sense of pride and accomplishment through improving my accuracy and technique. Overall, archery has transformed me by instilling valuable skills and qualities that have positively impacted my personal and professional growth. Equally becoming an Archery GB instructor is a fulfilling and rewarding experience. </div>
-                    <div> That has allowed me to share my passion for archery with others and introduce them to this ancient and exciting sport.</div>
+
+                    <div data-aos="fade-right" data-aos-duration="2000" className="text3">Archery has taught me discipline, patience, and focus, improving my accuracy and technique. It has instilled valuable skills and qualities including teamwork and leadership that has positively impacted my personal and professional growth. Becoming an <img src={archery} alt="GB archery" style={{ backgroundColor: 'Maroon' }} id="gbArcheryPic" /> instructor is fulfilling, allowing me to share my passion and introduce others to this exciting and ancient sport.</div>
+
                 </div>
-            </div>
-            <div>
-                I
-                Partnership with Lancashire Constabulary
-                August 2021 - Present Day
-                ● Volunteer Operation Nemo –
-                Lytham St Annes August 2021 -
-                September 2021
-                ● ESport - Global and Regional
 
-                Tournament Administrator - ROTW-
-                WOWSB May 2021 - October 2022
+                <div data-aos="zoom-in" data-aos-duration="2900" className="text4">
+                    As a professional, I value the importance of giving back to my community and making a positive impact on the world around me. I believe that volunteering is a powerful tool for personal and professional development, and I have actively sought out opportunities to get involved in various organizations and programs. Through volunteering, I have gained valuable skills and experiences and demonstrated my commitment to causes that align with my values. I am passionate about making a difference in the world, and I believe that volunteering is a crucial aspect of achieving that goal.
+                </div>
 
-                ● ESport - Regional Tournament Creator
-                and Administrator - SOVS- WOWSB
-                ● UK Royal Voluntary
+
             </div>
 
 
@@ -103,7 +97,9 @@ function Interests() {
 
 
 
-        </ div>
+
+
+        </ div >
 
 
     );

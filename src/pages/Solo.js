@@ -1,8 +1,8 @@
 import React from "react";
-import SoloFlipCard from "../components/soloCard";
+import SoloFlipCard from "../components/SoloCard.jsx";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../components/projectCard.scss";
+import "../components/ProjectCard.scss";
 
 
 const cards = [

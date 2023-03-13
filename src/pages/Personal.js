@@ -1,8 +1,8 @@
 import React from "react";
-import FlipCard from "../components/projectCard";
+import FlipCard from "../components/ProjectCard.jsx";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../components/projectCard.scss";
+import "../components/ProjectCard.scss";
 
 
 const cards = [
