@@ -10,6 +10,7 @@ import revisionCards from '../assets/images/project screenshots/revision cards f
 import weather from '../assets/images/project screenshots/weather homepage - london.png';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/scss/SoloCard.scss";
+import "../pages/css/solo.css";
 
 
 const cards = [
@@ -120,7 +121,7 @@ function Solo() {
 
       <div className="container">
         <div className="row h-100">
-          <div class="col d-flex flex-column flex-md-row justify-content-around align-items-center">
+        <div className="alignCards">
             {cards.map((card) => (
               <SoloFlipCard key={card.id} card={card} />
             ))}

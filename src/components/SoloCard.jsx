@@ -27,7 +27,7 @@ function SoloFlipCard({ card }) {
   } 
 
   return (
-   <div className='wrapper'>
+   
     <div
       tabIndex={card.id} 
       
@@ -63,7 +63,7 @@ function SoloFlipCard({ card }) {
       </div>
       
     </div>
-    </div>
+   
     
   );
 }
