@@ -2,8 +2,7 @@ import { useState } from "react";
 import cn from "classnames";
 import React from "react";
 import Button from 'react-bootstrap/Button';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 
 function SoloFlipCard({ card }) {
   const [showBack, setShowBack] = useState(false);
@@ -39,7 +38,7 @@ function SoloFlipCard({ card }) {
       onBlur={handleBlur} 
     >
       <div
-        className={cn("flip-card-inner", {
+        className={cn("flip-card-inner",  {
           showBack,
           "hover-trigger": card.variant === "hover"
         })}
@@ -55,9 +54,9 @@ function SoloFlipCard({ card }) {
         </div>
         <div className="card back">
           <div className="card-body text-center">
-            <p className="card-text ">{card.description}</p>
-            <Button variant="primary" href={card.repo}><i className="fa fa-github"></i>GitHub Repository</Button>{' '}
-            <Button variant="primary" href={card.deployed}>{card.deploy_button_label}</Button>{' '}
+            <p className="card-text cardBackText">{card.description}</p>
+            <Button  href={card.repo} className="cardButton"><i className="fa fa-github"></i>GitHub Repository</Button>{' '}
+            <Button  href={card.deployed}className="cardButton">{card.deploy_button_label}</Button>{' '}
           </div>
         </div>
       </div>

@@ -3,13 +3,11 @@ import PersonalFlipCard from "../components/PersonalCards.jsx";
 import homePic from "../assets/images/homePage.jpg";
 
 import ingrediantFyHP from '../assets/images/project screenshots/ingrediantfyHP.png';
-import ingrediantFy from '../assets/images/project screenshots/ingrediantFy.png';
+
 import placeholder from '../assets/images/project screenshots/PlaceHolder.png';
 
 import advancedRPG from '../assets/images/project screenshots/advancedRPG.png';
-import basicRPG from '../assets/images/project screenshots/advancedRPG.png';
-import dailyPlanner from '../assets/images/project screenshots/dailyPlanner.png';
-import readme from '../assets/images/project screenshots/readme.gif';
+
 import revisionCards from '../assets/images/project screenshots/revision cards front page.png';
 import weather from '../assets/images/project screenshots/weather homepage - london.png';
 
@@ -37,7 +35,7 @@ const cards = [
     title: "Collaborated Technical Skill Development Projects",
     front: "",
     back: "Click the link below to learn more Web Applications I have Created In Collaboration With Others",
-    address: "/Projects/Personal/Collaboration",
+    address: "/Projects/Personal/Collaborated",
     linkTitle: "Collaborated on Projects",
     carousel1: ingrediantFyHP,
     carousel2: placeholder,

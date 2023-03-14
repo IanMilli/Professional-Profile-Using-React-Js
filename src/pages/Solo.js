@@ -1,5 +1,5 @@
 import React from "react";
-import SoloFlipCard from "../components/SoloCard.jsx";
+import SoloFlipCard from "../components/DisplayCard.jsx";
 import homePic from "../assets/images/homePage.jpg";
 
 import advancedRPG from '../assets/images/project screenshots/advancedRPG.png';
@@ -8,8 +8,9 @@ import dailyPlanner from '../assets/images/project screenshots/dailyPlanner.png'
 import readme from '../assets/images/project screenshots/readme.gif';
 import revisionCards from '../assets/images/project screenshots/revision cards front page.png';
 import weather from '../assets/images/project screenshots/weather homepage - london.png';
+import profile1 from '../assets/images/project screenshots/profile1.png'
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../components/scss/SoloCard.scss";
+import "../components/scss/DisplayCard.scss";
 import "../pages/css/solo.css";
 
 
@@ -23,7 +24,7 @@ const cards = [
     subtitle: "",
     description: "This project is to understand the basics of how to create a basic random password generator before expanding to a more advanced version that allows the size of the password to be determined by the user.",
     tech:"HTML, Bootstrap 4.31, CSS, Flexbox, Node Js (creation of readme), JavaScript",
-    repo: "https://github.com/LauraCole1900/bcms",
+    repo: "https://github.com/IanMilli/Basic-Random-Password-Generator-Web-Application",
     deployed: "https://ianmilli.github.io/Basic-Random-Password-Generator-Web-Application/",
     deploy_button_label: "Deployed Application"
   },
@@ -57,8 +58,8 @@ const cards = [
     id: "4",
     variant: "hover",
     name: "Responsive Weather Dashboard with API",
-    image: "",
-    subtitle: weather,
+    image: weather,
+    subtitle: "",
     description: "This project is to develop and produce a weather dashboard to provide weather data for any requested city the user searches for and to give the option for the user to see the next five days of weather for said location.",
     tech: " Jquery, HTML, CSS, Bootstrap, Javascript, Moments library, Node JS (Readme Generator) , ES6, API, AJAX",
     repo: "https://github.com/IanMilli/Global-City-Weather-Dashboard-",
@@ -94,7 +95,7 @@ const cards = [
   id: "7",
     variant: "hover",
     name: "Professional Profile version 1.5",
-    image: "",
+    image: profile1,
     subtitle: "",
     description: "  This is an early development of my current Professional Profile to demonstrate my development in skills in Front End Web Development",
     repo: "https://github.com/IanMilli/Professional-Profile-",
@@ -113,10 +114,11 @@ function Solo() {
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
       width: 'auto',
-      height: '180vh'
+      height: '300vh'
     }}>
 
-      <h3>To Review Web Development Projects I have been involved select from the following</h3>
+      <div className="textSoloHeader">
+To Review the technical skills web development projects I have authored please review below:</div>
       
 
       <div className="container">

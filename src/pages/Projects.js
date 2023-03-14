@@ -55,7 +55,7 @@ function Projects() {
     }}>
      
         <div className="textProjectsHeader">To Review The Web Design Projects I have been involved with </div>
-        <div className="textProjectsHeader"> select from the following: </div>
+        <div className="textProjectsHeader2"> select from the following: </div>
 
 
         <div className="container">

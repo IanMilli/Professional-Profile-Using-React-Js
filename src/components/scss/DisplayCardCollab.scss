@@ -11,14 +11,18 @@
 }
 
 }
-.wrapper{
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit,min-max(12em,16em)) !important;
-  gap: 2em !important;
-  justify-content: center !important;
+.cardButton{
+  background-color: #6ca6c1 !important;
+  color: #fff !important;
+  margin-top: 3vh !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+
 }
 
-
+.cardBackText{
+  color: #FFE66D;}
 
 .container {
   height: 100vh;
@@ -26,8 +30,9 @@
 
 .flip-card-outer {
   width: 300px;
-  height: 400px;
+  height: 700px;
   margin: 25px 0;
+  margin-right:10% !important;
 
   &.focus-trigger:focus {
     outline: 5px solid navy;

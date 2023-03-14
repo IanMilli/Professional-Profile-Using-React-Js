@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import Solo from "./pages/Solo";
 import Interests from "./pages/Interests";
 import Chef from "./pages/Chef.js";
+import Collaborated from "./pages/Collaborated";
 
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route  path="/Projects" element={<Projects />} />
         <Route  path="/Projects/Personal" element={<Personal />} />
         <Route  path="/Projects/Personal/Solo" element={<Solo />} />
+        <Route  path="/Projects/Personal/Collaborated" element={<Collaborated />} />
         <Route  path="/Projects/Voluntary" element={<Voluntary />} />
         <Route  path="/Projects/Professional" element={<Professional />} />
         <Route  path="/Chef" element={<Chef />} />
