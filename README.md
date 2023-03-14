@@ -86,6 +86,8 @@
 
    The following is a link to basic video showing interaction with the website
 
+   [Video to view usage of the website](https://drive.google.com/file/d/1nixagDjHd-W2HqLXOanBHAXpDFasIIrJ/view)
+
    ## Screenshots
 
    yes, this is a placeholder for screenshots to be added
