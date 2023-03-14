@@ -36,7 +36,7 @@ const cards = [
     title: "Voluntary Web Development Projects",
     front: "",
     back: "Click the link below to learn more Web Applications I have Created For Non Profit Groups",
-    address: "'/Voluntary'",
+    address: "/Projects/Voluntary",
     linkTitle: "Voluntary Development Projects",
     image:card3
   }
@@ -55,7 +55,7 @@ function Projects() {
     }}>
      
         <div className="textProjectsHeader">To Review The Web Design Projects I have been involved with </div>
-        <div className="textProjectsHeader2"> select from the following: </div>
+        <div className="textProjectsHeader2"> select the links from the back of the following: </div>
 
 
         <div className="container">
