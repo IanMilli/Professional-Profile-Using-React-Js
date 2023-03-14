@@ -44,11 +44,12 @@
    * #343434
    * #6ca6c1
    I used the Coolors website to pick them.
-   
+  
+
    An image depicting my wire framing can be viewed below:
 
    *### Wire Framing Image
-   yes this is a placeholder for a wire framing image 
+   ![wireframe 1](https://user-images.githubusercontent.com/120601739/225094574-26a5d372-5439-41f4-b21c-d2887ecf24ab.png) 
 
    ## UserStory
 
@@ -90,8 +91,19 @@
 
    ## Screenshots
 
-   yes, this is a placeholder for screenshots to be added
+* ![home](https://user-images.githubusercontent.com/120601739/225094717-da42cf33-8f39-4679-b6cd-ae75e2211d2f.png)
 
+* ![about](https://user-images.githubusercontent.com/120601739/225094779-dcd2474a-673a-49df-8574-5a4c23f2ad4b.png)
+
+* ![culinary](https://user-images.githubusercontent.com/120601739/225094852-a1a7e955-400c-4587-8efd-8e1d098c27d2.png)
+
+* ![interests](https://user-images.githubusercontent.com/120601739/225094952-01b8d9e9-406f-415f-87f5-64617fae00b6.png)
+
+* ![web design](https://user-images.githubusercontent.com/120601739/225095023-05d9c1f4-f8dc-4cea-a56c-f61dd3c2a428.png)
+
+* ![solo authored skills projects](https://user-images.githubusercontent.com/120601739/225095116-8e3d8e12-eb84-46ef-8782-43b1e1f07baf.png)
+
+* ![contact](https://user-images.githubusercontent.com/120601739/225095189-873416ca-6abb-40c0-8393-56276be5ed90.png)
 
 
    ## Evolution
