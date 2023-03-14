@@ -26,7 +26,7 @@ const cards = [
     title: "Professional Web Development Projects",
     front: "",
     back: "Click the link below to learn more Web Applications I have Created For Professional Projects",
-    address: "/Professional",
+    address: "/Projects/Professional",
     linkTitle: "Professional Development Projects",
     image:card2
   },

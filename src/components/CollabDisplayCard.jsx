@@ -1,9 +1,10 @@
 import { useState } from "react";
 import cn from "classnames";
-import {Link, } from "react-router-dom";
+import React from "react";
+import Button from 'react-bootstrap/Button';
 
 
-function FlipCard({ card }) {
+function CollabFlipCard({ card }) {
   const [showBack, setShowBack] = useState(false);
 
   function handleClick() {
@@ -25,37 +26,45 @@ function FlipCard({ card }) {
   } 
 
   return (
+   
     <div
       tabIndex={card.id} 
-      className={cn("projectFlip-card-outer", { 
-        "focus-trigger": card.variant === "focus" 
+      
+      className={cn("collabFlip-card-outer ",card.div, { 
+        "focus-trigger":card.variant === "focus" 
       })} 
       onClick={handleClick}
       onFocus={handleFocus} 
       onBlur={handleBlur} 
     >
       <div
-        className={cn("flip-card-inner", {
+        className={cn("flip-card-inner",  {
           showBack,
           "hover-trigger": card.variant === "hover"
         })}
       >
         <div className="card front">
           <div className="card-body text-center">
-          <h1 className="text-white ">{card.title}</h1>
-            <p className="card-text fs-1 fw-bold ">{card.front}</p>
-            <img class="card-img-bottom cardImage" src={card.image} alt="Card image "/>
+            <h1 className="text-white">{card.name}</h1>
+            <p className="card-text fs-1 fw-bold">{card.front}</p>
+            <img className="d-block w-100" src={card.image}
+          alt={card.name}
+        />
           </div>
         </div>
         <div className="card back">
           <div className="card-body text-center">
-            <p className="card-text cardBackText">{card.back}</p>
-            <Link style={{color:'#2f3061'}}to={card.address}  ><h2>{card.linkTitle}</h2></Link>
+            <p className="card-text cardBackText">{card.description}</p>
+            <Button  href={card.repo} className="cardButton"><i className="fa fa-github"></i>GitHub Repository</Button>{' '}
+            <Button  href={card.deployed}className="cardButton">{card.deploy_button_label}</Button>{' '}
           </div>
         </div>
       </div>
+      
     </div>
+   
+    
   );
 }
 
-export default FlipCard;
+export default CollabFlipCard;

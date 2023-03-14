@@ -27,7 +27,7 @@ function PersonalFlipCard({ card }) {
   return (
     <div
       tabIndex={card.id} 
-      className={cn("flip-card-outer", { 
+      className={cn("personalFlip-card-outer", { 
         "focus-trigger": card.variant === "focus" 
       })} 
       onClick={handleClick}

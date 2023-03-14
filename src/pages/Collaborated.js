@@ -1,5 +1,5 @@
 import React from "react";
-import SoloFlipCard from "../components/DisplayCard.jsx";
+import CollabFlipCard from "../components/CollabDisplayCard.jsx";
 import homePic from "../assets/images/homePage.jpg";
 
 import ingrediantFy from '../assets/images/project screenshots/ingrediantFy.png';
@@ -61,7 +61,7 @@ To Review the technical skills web development projects I have collaborated on, 
         <div className="row h-100">
         <div className="alignCards">
             {cards.map((card) => (
-              <SoloFlipCard key={card.id} card={card} />
+              <CollabFlipCard key={card.id} card={card} />
             ))}
           </div>
         </div>
