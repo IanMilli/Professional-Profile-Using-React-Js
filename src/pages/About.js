@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Carousel from 'react-bootstrap/Carousel';
-import React, { useEffect,  } from "react";
+import React, { useEffect, } from "react";
 import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -40,11 +40,11 @@ function About() {
             // duration : 5000
         });
     }, []);
- 
-   
 
-    return(
-        <div className='pageAbout'style={{
+
+
+    return (
+        <div className='pageAbout' style={{
 
 
             width: 'auto',
@@ -69,10 +69,16 @@ function About() {
                     </Col>
                     <Col xs={2}></Col>
                     <Col xs={8}>
-                        <div data-aos="fade-left" data-aos-duration="2900" className="aboutSumText1"><h7>After completing a Front End Web Development Skills Boot Camp, I am now transitioning from my previous role as a Culinary and Hospitality Manager to pursue a career in this field. As a seasoned Chef, I have developed a range of skills that are transferable to web development, such as strong problem-solving abilities, effective teamwork team management skills, and excellent communication skills. Furthermore, I have honed my creativity and attention to detail, as well as my passion for learning new things and my dedication to excellence.</h7></div>
+                        <div data-aos="fade-left" data-aos-duration="2900" className="aboutSumText1"><h7>Having Recently completed a Front-End Web Development Skills Boot Camp, I am now
+                            transitioning from a Culinary and Hospitality Manager role to pursue a career in this field.</h7></div>
 
-                        <div data-aos="fade-right" data-aos-duration="2900" className="aboutSumText2"><h7> In addition, I have acquired technical skills in HTML, CSS, Javascript, React, and other web development areas. To learn more scroll down below.</h7></div>
-                        <div class="item" data-aos="fade-left" data-aos-duration="2900" className="aboutSumText3"> <h7> I am confident that my diverse skill set will be well-suited to the fast-paced and constantly evolving nature of the web development industry.</h7>
+                        <div data-aos="fade-right" data-aos-duration="2900" className="aboutSumText2"><h7> I possess transferable skills such as problem-solving, effective teamwork, team
+                            management, communication, creativity and attention to detail from being as seasoned
+                            chef. Proficient in HTML, CSS, JavaScript, React and other web development technologies
+                            and with a strong passion for learning and dedication to excellence. To learn more scroll down below.</h7></div>
+                        <div class="item" data-aos="fade-left" data-aos-duration="2900" className="aboutSumText3"> <h7> I am excited to
+                            leverage my diverse skill set in the fast paced and ever-changing environment of the web
+                            development industry.</h7>
                         </div>
 
                     </Col>

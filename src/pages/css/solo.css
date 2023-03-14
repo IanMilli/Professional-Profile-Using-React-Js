@@ -1,0 +1,17 @@
+.alignCards {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+  
+  .alignCards ul li {
+    list-style: none;
+    flex: 0 0 33.333333%;
+  }
+  .textSoloHeader {
+    font-size: 2vw;
+    color: #2f3061;
+    text-align: center;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}

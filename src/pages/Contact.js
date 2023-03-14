@@ -3,7 +3,8 @@ import { useForm } from 'react-hook-form';
 import React from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
-import emailjs from 'emailjs-com';;
+import emailjs from 'emailjs-com';import { Container } from 'react-bootstrap';
+;
 
 
 const Contact = () => {
@@ -62,6 +63,14 @@ const Contact = () => {
   };
 
   return (
+    <div className='pageAbout' style={{
+
+
+      width: 'auto',
+      height: '170vh'
+  }}>
+    <div className='pageHeader'>Contact Form</div>
+    <Container>
     <div className='ContactForm'>
       <div className='container'>
         <div className='row'>
@@ -103,7 +112,7 @@ const Contact = () => {
                   </div>
                 </div>
                 {/* Row 2 of form */}
-                <div className='row formRow'>
+                <div className='row formRow row2'>
                   <div className='col'>
                     <input
                       type='text'
@@ -124,7 +133,7 @@ const Contact = () => {
                   </div>
                 </div>
                 {/* Row 3 of form */}
-                <div className='row formRow'>
+                <div className='row formRow row3'>
                   <div className='col'>
                     <textarea
                       rows={3}
@@ -147,6 +156,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
+    </div>
+    </Container>
     </div>
   );
 };

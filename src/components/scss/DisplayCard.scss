@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+.card {
+  font-family: 'Ubuntu', sans-serif;
+  background-image: radial-gradient(farthest-corner at 40px 40px,
+  #2f3061 0%, #6ca6c1 100%);
+&_img{
+  height: 12em;
+  width: 100%;
+  object-fit: cover;
+}
+
+}
+.cardButton{
+  background-color: #6ca6c1 !important;
+  color: #fff !important;
+  margin-top: 3vh !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+
+}
+
+.cardBackText{
+  color: #FFE66D;}
+
+.container {
+  height: 100vh;
+}
+
+.flip-card-outer {
+  width: 300px;
+  height: 500px;
+  margin: 25px 0;
+  margin-right:10% !important;
+
+  &.focus-trigger:focus {
+    outline: 5px solid navy;
+    outline-offset: 5px;
+  }
+  .cardImage{
+    margin-bottom: 1vh !important;
+    margin-top: 5vh !important;
+  }
+
+  .flip-card-inner {
+    transform-style: preserve-3d;
+    transition: .5s linear .1s;
+    position: relative;
+    width: inherit;
+    height: inherit;
+
+    &.hover-trigger:hover {
+      transform: rotateY(180deg);
+    }
+
+    &.showBack {
+      transform: rotateY(180deg);
+    }
+  .cardBackText{
+    color: #FFE66D;
+  }
+    .card {
+      backface-visibility: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transform: translateZ(2rem);
+      &.front {
+        transform: rotateY(0);
+        background-color: #2d2d2d;
+        color: #fff;
+        transform-style: preserve-3d;
+
+      }
+  
+      &.back {
+        transform: rotateY(180deg);
+        background-color: #fff;
+        color: #2d2d2d;
+        transform-style: preserve-3d;
+        
+      }
+    }
+  }
+}

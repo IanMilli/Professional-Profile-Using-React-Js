@@ -1,70 +1,162 @@
-# Getting Started with Create React App
+# Professional Profile Using React/ Ian Millichamp
+ 
+   ## Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+   * [Description](#description)
+   * [Technologies](#technologies)
+   * [Links](#links)
+   * [Installation](#installation)
+   * [WireFraming](#wireframing)
+   * [UserStory](#userstory)
+   * [Development](#development)
+   * [Usage](#usage)
+   * [Screenshots](#screenshots)
+   * [Evolution](#evolution)
+   * [Credits](#credits)
+   * [References](#references)
+   * [License](#license)
+   
+   
+   ## Description
 
-## Available Scripts
+   To Create a professional profile website for myself using react and other technologies to showcase myself and my work.
 
-In the project directory, you can run:
+   ## Technologies
 
-### `npm start`
+   HTML, CSS, JavaScript, React, Node JS, ES6, Bootstrap
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   ## Links
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ### Link for [Deployed Application](https://ianmilli.github.io/Professional-Profile-Using-React-Js/)
+   
+   ### Link for [Repository For Deployed Application](https://github.com/IanMilli/Professional-Profile-Using-React-Js)
+   
+   ## Installation 
 
-### `npm test`
+   This application does not need installing, a user needs to go to the deployed application at the link in [Links](#links).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ## WireFraming
 
-### `npm run build`
+   To begin the project i created a wire frame to give me a guide to how i wanted to use the website. I also selected a palette of five colors to standardize my website. The colors are:
+   * #f7fff7
+   * #ffe66d
+   * #2f3061
+   * #343434
+   * #6ca6c1
+   I used the Coolors website to pick them.
+   
+   An image depicting my wire framing can be viewed below:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   *### Wire Framing Image
+   yes this is a placeholder for a wire framing image 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ## UserStory
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   As a user I want a professional profile website that is intuitive to use and responsive to multiple display sizes. It needs to be a showcase of my capabilities as well as a link to my completed web applications. 
 
-### `npm run eject`
+   ## Development
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   *Research carried out into how good professional profiles should appear
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   * Creation of a wire frame to guide how the website should look on creation.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   * Creation of the initial react application
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   * Creation of a basic nav bar to allow deploy testing of the site
 
-## Learn More
+   * creation of a basic footer
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   * creation of pages and initial rough styling of pages as well as populating the content.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   * error debugging, research, content editing and style editing.
 
-### Code Splitting
+   * addition of more dynamic elements to showcase a more personalized and styled website
+   
+   * more debugging, and research
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   * snag checking and final style editing
 
-### Analyzing the Bundle Size
+   * readme file generation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   * This will be a project that will evolve and develop further as I progress in my knowledge and understanding of web development
 
-### Making a Progressive Web App
+   ## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   To use the site please use the link for the deployed application under [Links](#links)
 
-### Advanced Configuration
+   The following is a link to basic video showing interaction with the website
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ## Screenshots
 
-### Deployment
+   yes, this is a placeholder for screenshots to be added
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ## Evolution
+
+   This project can be developed further through the incorporation of standardized fonts, creation of further web applications to add to the site, content editing and styling
+
+   ## Credits
+
+   * Main Author:                   Ian Millichamp
+   * Main Author Email:             ianmillichamp2@gmail.com
+   * Main Author GitHub User Name:  IanMilli
+
+
+   ## References
+
+   EDX Trilogy Bootcamp, specifically week 13 and week 14 but content from all weeks have been incorporated in this site.
+
+   Instructor Dane Edwards
+   Instructor Laura Cole
+
+   the following research materials were used in the creation of this website:
+   wwww.coolers.com
+   www.canva.com
+   www.fontawesome.com
+   www.medium.com:
+  *  https://medium.com/hackernoon/5-ways-to-animate-a-reactjs-app-in-2019-56eb9af6e3bf
+   * https://johnckealy.medium.com/how-to-create-slide-in-on-scroll-animations-in-a-react-app-127eae92ee16
+
+   * https://krithix.medium.com/multi-page-website-with-react-in-2020-4dc01267757b
+
+   www.stackoverflow.com
+   * https://stackoverflow.com/questions/67759646/how-to-put-card-in-row-using-react-bootstrap-mapping-and-props
+
+   * https://stackoverflow.com/questions/48464444/how-to-display-3-items-per-row-in-flexbox
+
+   * https://stackoverflow.com/questions/64028696/react-js-how-can-i-display-the-image-inside-the-object
+
+   * https://stackoverflow.com/questions/38003222/javascript-adding-images-to-objects-via-object-literal-notation
+
+   https://react-bootstrap.github.io/
+
+   https://freefrontend.com/css-text-animations/
+
+   https://michalsnik.github.io/aos/
+   ## Questions
+
+   If you have further questions, you can reach me at ianmillichamp2@gmail.com. For more of my work, see [my GitHub](https://github.com/https://github.com/IanMilli).
+  
+   ## License
+Copyright (c) 2023 IanMilli
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+   ![License badge](https://img.shields.io/badge/license-MIT-brightgreen).
+ 
